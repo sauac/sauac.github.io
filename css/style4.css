@@ -92,7 +92,7 @@ and (orientation : portrait) {
 }
 */
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 767px) {
     .section {
         display: block;
         width: 100%;
