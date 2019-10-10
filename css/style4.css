@@ -80,7 +80,7 @@ body {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
     #parentx {
      display: grid;
     margin-top: 40px;
