@@ -71,16 +71,6 @@ body {
 }
 */
 
-/*
-@media only screen and (max-width: 600px) {
-    .section {
-        display: block;
-        width: 100%;
-    }
-}
-*/
-
-
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -88,6 +78,14 @@ and (max-device-width : 1023px) {
     .section {
         display: block;
         width: 46%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section {
+        display: block;
+        width: 100%;
     }
 }
 
