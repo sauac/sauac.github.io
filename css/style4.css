@@ -92,6 +92,14 @@ and (max-device-width : 1023px) {
 }
 
 
+@media only screen and (max-width: 767px) {
+    .section {
+        display: block;
+        width: 100%;
+    }
+}
+
+
 /*
 @media only screen 
 and (min-device-width : 768px) 
