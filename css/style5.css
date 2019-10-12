@@ -1,0 +1,191 @@
+body {
+    background-color: #efefef;
+    margin: 0;
+    /*padding: 30px;*/
+    /*max-width: 100%;*/
+
+}
+
+
+.hero {
+    margin: auto;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
+
+}
+
+.main-title {
+    margin-bottom: 5px;
+    font-size: 42px;
+    color: #fff;
+}
+
+.seasons-sub-heading {
+    margin-top: 5px
+}
+
+
+.card-row {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+
+}
+
+.section {
+    background-color: #fff;
+    /*padding: 25px;*/
+    margin-top: 25px !important;
+    margin-bottom: 20px;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+    border-radius: 5px;
+    width: 23%;
+    box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+/*
+@media only screen and (max-width: 1024px) {
+    .section {
+        display: block;
+        
+        flex-basis: 30%
+        
+    }
+}
+*/
+
+
+
+@media only screen and (max-width: 1024px) {
+    .section {
+        display: block;
+        width: 46%;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    #parentx {
+        display: grid;
+        margin-top: 40px;
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+
+.main-content {
+    padding: 25px;
+    padding-top: 0;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+#parentx {
+
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.springx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #BBB881;
+    text-align: center;
+}
+
+
+.summerx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #aebd6d;
+    text-align: center;
+}
+
+.autmnx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #ceb76a;
+    text-align: center;
+}
+
+.winterx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #add9cc;
+    text-align: center;
+}
+
+.footer-row {
+    font-size: 14px;
+    text-align: center;
+}
