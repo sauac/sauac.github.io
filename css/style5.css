@@ -11,7 +11,7 @@ body {
     margin: auto;
     margin-left: 0;
     padding-top: 60px;
-    /*padding-bottom: 60px;*/
+    padding-bottom: 60px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -206,6 +206,19 @@ p {
 }
 
 .footer-row {
+    display: block;
     font-size: 14px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.footer-row .git-hub {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
 }
