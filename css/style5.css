@@ -37,6 +37,7 @@ body {
     margin-top: 30px;
     margin-bottom: 40px;
     padding: 5px;
+    color: #000;
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
@@ -70,8 +71,8 @@ body {
     /*padding: 25px;*/
     margin-top: 25px !important;
     margin-bottom: 20px;
-    margin-right: 10px !important;
     margin-left: 10px !important;
+    margin-right: 10px !important;
     border-radius: 5px;
     width: 23%;
     box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.1);
@@ -111,6 +112,8 @@ body {
     #parentx {
         display: grid;
         margin-top: 40px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
         grid-template-columns: 1fr !important;
     }
 }
@@ -156,10 +159,12 @@ p {
 #parentx {
     max-width: 1030px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 
 .springx {
     padding: 30px;
@@ -208,7 +213,11 @@ p {
 
 .footer-row {
     display: block;
+    margin-bottom: 0;
+    padding-top: 50px;
     font-size: 14px;
+    color: #fff;
+    background-color: #49686f;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -222,4 +231,9 @@ p {
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+.copyright-date {
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
