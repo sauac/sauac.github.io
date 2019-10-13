@@ -79,6 +79,30 @@ body {
 
 }
 
+.section {
+  -webkit-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+  -webkit-box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+          box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.section:hover {
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+  -webkit-transform: translate3D(0, -1px, 0);
+          transform: translate3D(0, -1px, 0);
+  -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+          box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+}
+
+
+
+
+
+
+
 /*
 @media only screen and (max-width: 1024px) {
     .section {
