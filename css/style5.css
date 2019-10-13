@@ -154,9 +154,10 @@ p {
 }
 
 #parentx {
-
-    display: grid;
+    max-width: 1030px;
+    margin: auto;
     margin-top: 40px;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
