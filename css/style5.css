@@ -79,6 +79,10 @@ body {
 
 }
 
+.section:hover {
+    cursor: pointer;
+}
+
 .section {
   -webkit-transition: box-shadow 0.5s ease;
           transition: box-shadow 0.5s ease;
