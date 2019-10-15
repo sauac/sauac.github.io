@@ -270,11 +270,12 @@ p {
     background-color: #fff;
     border-radius: 3px;
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
 }
 
 .footer-row .git-hub:hover {
     background-color: #cbcbcb;
-    
+    transition: background-color 0.3s ease;
 }
 
 .copyright-date {
