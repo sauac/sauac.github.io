@@ -272,6 +272,11 @@ p {
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
+.footer-row .git-hub:hover {
+    background-color: #cbcbcb;
+    
+}
+
 .copyright-date {
     margin-bottom: 0;
     padding-bottom: 15px;
