@@ -32,7 +32,8 @@ body {
 }
 
 .intro {
-    max-width: 1050px;
+    /*max-width: 1050px;*/
+    margin: auto;
     padding-top: 20px;
     padding-bottom: 60px;
     padding-left: 20px;
@@ -43,6 +44,8 @@ body {
 .intro .intro-title {
 }
 
+.intro p {
+}
 
 .git-hub {
     margin-top: 30px;
