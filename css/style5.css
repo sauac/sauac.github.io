@@ -174,9 +174,13 @@ body {
 
 .summary-text {
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
     font-weight: 300;
     font-style: italic;
-    color: #ac7500;
+    color: #000000;
+    display: block;
+    text-align: right;
+    
 }
 
 img {
