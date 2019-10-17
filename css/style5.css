@@ -227,7 +227,7 @@ p {
 }
 
 .main-content p::first-letter {
-    color: red;
+    color: #acacac;
     font-size: 20px
 }
 
