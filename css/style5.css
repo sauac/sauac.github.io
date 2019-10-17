@@ -170,7 +170,14 @@ body {
 .main-content {
     padding: 25px;
     padding-top: 0;
+}
 
+.summary-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px
+    color: black;
 }
 
 img {
@@ -200,11 +207,10 @@ p {
     font-weight: 300;
 }
 
-.section p::first-letter {
+.main-content p::first-letter {
     color: red;
     font-size: 20px
 }
-
 
 #parentx {
     max-width: 1030px;
