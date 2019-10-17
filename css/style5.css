@@ -32,19 +32,24 @@ body {
 }
 
 .intro {
-    /*max-width: 1050px;*/
-    margin: auto;
+    background-color: #fff;
+    
+}
+
+.intro-content {
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 20px;
     padding-bottom: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #fff;
+    /*padding-left: 40px;
+    padding-right: 40px;*/
+    
 }
 
-.intro .intro-title {
+.intro-content .intro-title {
 }
-
-.intro p {
+.intro-content p {
 }
 
 .git-hub {
