@@ -86,6 +86,22 @@ body {
     font-size: 25px;
 }
 
+.main-content .title-highlight-spring {
+    color: #d4cd48;
+}
+
+.main-content .title-highlight-summer {
+    color: #aebd6d;
+}
+
+.main-content .title-highlight-autumn {
+    color: #ceab6a;
+}
+
+.main-content .title-highlight-winter {
+    color: #49686f;
+}
+
 /*
 .section:hover {
     cursor: pointer;
@@ -232,7 +248,7 @@ p {
     font-weight: 300;
     font-size: 24px;
     color: #08092a;
-    background-color: #BBB881;
+    background-color: #d4cd48;
     text-align: center;
 }
 
@@ -255,7 +271,7 @@ p {
     font-weight: 300;
     font-size: 24px;
     color: #08092a;
-    background-color: #ceb76a;
+    background-color: #ceab6a;
     text-align: center;
 }
 
@@ -266,7 +282,7 @@ p {
     font-weight: 300;
     font-size: 24px;
     color: #08092a;
-    background-color: #add9cc;
+    background-color: #add6d9;
     text-align: center;
 }
 
