@@ -49,6 +49,14 @@ body {
 
 .intro-content .intro-title {
 }
+
+hr {
+    border-top: 0.21px solid #cccccc;
+    width: 200px;
+    text-align: left;
+    margin-left: 0;
+}
+
 .intro-content p {
 }
 
