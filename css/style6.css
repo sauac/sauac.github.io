@@ -281,7 +281,7 @@ p {
 
 .main-content p::first-letter {
     color: #acacac;
-    font-size: 20px;
+    font-size: 20px
 }
 
 #parentx {
