@@ -71,7 +71,7 @@ body {
 }
 
 
-.intro-section {
+/*.intro-section {
     padding-top: 20px;
     padding-bottom: 60px;
     background-color: #fff;
@@ -110,7 +110,13 @@ body {
         padding-left: 15px;
         padding-right: 15px;
     }
-}
+}*/
+
+
+/*.month-highlight {
+    font-style: italic;
+    color: #004784;
+}*/
 
 
 hr {
@@ -122,19 +128,10 @@ hr {
 }
 
 
-/*.month-highlight {
-    font-style: italic;
-    color: #004784;
-}*/
-
-
-
-
-
 .card-row {
     margin: auto;
     margin-top: 40px;
-    max-width: 1050px;
+    max-width: 1030px;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
