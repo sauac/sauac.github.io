@@ -1,33 +1,410 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
-	background-color: #efefef;
-	padding: 10px;
-	margin: 0;
+    background-color: #efefef;
+    margin: 0;
+    /*padding: 30px;*/
+    /*max-width: 100%;*/
+
 }
 
 
-.section{
-	background-color: #fff;
-	padding: 25px;
-	margin-bottom: 10px;
-	border-radius: 10px;
-	margin: auto;
-	width: 30%;
-	box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.1);
+.hero {
+    margin: auto;
+    margin-left: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
+}
+
+.main-title {
+    margin-bottom: 5px;
+    font-size: 42px;
+    color: #fff;
+}
+
+.seasons-sub-heading {
+    margin-top: 5px;
+}
+
+.rowsection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+.rowsection .wrapper {
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rowsection .intro-title {
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 0;
+    color: #ceab6a;
+}
+
+.rowsection hr {
+    border-top: 0.21px solid #cccccc;
+    width: 200px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+.rowsection p {
+}
+.rowsection br {
+}
+
+
+.intro-section {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.intro-section .intro-content {
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.intro-section .intro-title {
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 0;
+    color: #ceab6a;
+}
+
+.intro-section hr {
+    border-top: 0.21px solid #cccccc;
+    width: 200px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 40px
+}
+
+.intro-section p {}
+
+.intro-section br {}
+
+
+@media only screen and (max-width: 768px) {
+    .intro-section .intro-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+hr {
+    border-top: 0.21px solid #cccccc;
+    width: 200px;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 40px
+}
+
+
+/*.month-highlight {
+    font-style: italic;
+    color: #004784;
+}*/
+
+
+
+
+
+.card-row {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.section {
+    background-color: #fff;
+    /*padding: 25px;*/
+    margin-top: 25px !important;
+    margin-bottom: 20px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    border-radius: 5px;
+    width: 23%;
+    box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transition: box-shadow 0.5s ease;
+    transition: box-shadow 0.5s ease;
+    -webkit-box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.section:hover {
+    -webkit-transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;
+
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
+}
+
+.section h1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*
+.section:hover {
+    cursor: pointer;
+}
+*/
+
+/*
+@media only screen and (max-width: 1024px) {
+    .section {
+        display: block;
+        
+        flex-basis: 30%
+        
+    }
+}
+*/
+
+
+
+@media only screen and (max-width: 1024px) {
+    .section {
+        display: block;
+        width: 46%;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section {
+        display: block;
+        width: 100%;
+    }
+}
+
+.main-content .title-highlight-spring {
+    color: #d4cd48;
+}
+
+.main-content .title-highlight-summer {
+    color: #aebd6d;
+}
+
+.main-content .title-highlight-autumn {
+    color: #ceab6a;
+}
+
+.main-content .title-highlight-winter {
+    color: #49686f;
+}
+
+
+
+/*
+@media only screen and (max-width: 1024px) {
+    #parentx {
+        display: grid;
+        margin-top: 40px;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        grid-template-columns: 1fr !important;
+    }
+}
+*/
+
+
+@media only screen and (max-width: 600px) {
+    #parentx {
+        display: grid;
+        margin-top: 40px;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
+
+.main-content {
+    padding: 25px;
+    padding-top: 0;
+}
+
+.summary-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    color: #000000;
+    /*display: block;
+    text-align: right;*/
+
 }
 
 img {
-	max-width: 100%;
-	max-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
 }
 
 h1 {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
     font-style: italic;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+
+p {
+    font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
 
-p {
-	font-family: 'Raleway', sans-serif;
-   
+.main-content p::first-letter {
+    color: #acacac;
+    font-size: 20px;
+}
+
+#parentx {
+    max-width: 1030px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.springx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
     font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #d4cd48;
+    text-align: center;
+}
+
+
+.summerx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #aebd6d;
+    text-align: center;
+}
+
+.autmnx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #ceab6a;
+    text-align: center;
+}
+
+.winterx {
+    padding: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    color: #08092a;
+    background-color: #add6d9;
+    text-align: center;
+}
+
+.footer-row {
+    display: block;
+    margin-bottom: 0;
+    padding-top: 50px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #49686f;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.git-hub {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 5px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+.git-hub .highlight-text {
+    color: #ff5800;
+}
+
+
+.git-hub .fab {
+    padding-left: 5px;
+    color: #ff5800;
+    font-size: 25px
+}
+
+.footer-row .git-hub {
+    display: inline-block;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
+.footer-row .git-hub:hover {
+    background-color: #cbcbcb;
+    transition: background-color 0.3s ease;
+}
+
+.copyright-date {
+    margin-bottom: 0;
+    padding-bottom: 15px;
 }
