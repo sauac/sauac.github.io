@@ -31,6 +31,29 @@ body {
     margin-top: 5px;
 }
 
+.rowsection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+.rowsection .wrapper {
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rowsection .intro-title {
+}
+.rowsection hr {
+}
+.rowsection p {
+}
+.rowsection br {
+}
+
+
 .intro-section {
     padding-top: 20px;
     padding-bottom: 60px;
