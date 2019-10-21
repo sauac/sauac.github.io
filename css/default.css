@@ -92,6 +92,8 @@ body {
 
 
 .wrapper.padadjust{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*.intro-section {
