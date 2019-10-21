@@ -43,6 +43,8 @@ body {
     padding-bottom: 60px;
     background-color: #fff;
     
+    
+    
 }
 .rowsection .wrapper {
     max-width: 1030px;
@@ -50,6 +52,8 @@ body {
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .rowsection .intro-title {
@@ -66,6 +70,7 @@ body {
     margin-left: 0;
     margin-bottom: 40px;
 }
+
 .rowsection p {
 }
 .rowsection br {
