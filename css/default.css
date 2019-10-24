@@ -44,10 +44,7 @@ body {
 .rowsection {
     padding-top: 60px;
     padding-bottom: 60px;
-    background-color: #fff;
-
-
-
+    background-color: #ffffff;
 }
 
 .rowsection .wrapper {
@@ -144,6 +141,8 @@ body {
 }*/
 
 .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #F7F7FA;
 }
 
