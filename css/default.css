@@ -150,8 +150,6 @@ body {
 .rowsection-test {
     max-width: 1030px;
     margin: auto;
-    display: flex;
-    align-items: stretch;
 }
 
 .rowsection-test:after {
@@ -164,7 +162,6 @@ body {
     float: left;
     width: 25%;
     padding: 0 10px;
-    display: flex;
 }
 
 .cardx {
