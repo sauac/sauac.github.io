@@ -152,6 +152,7 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    /*    justify-content: center;*/
 }
 
 .section.tint {
@@ -423,6 +424,10 @@ p {
         margin-right: 10px !important;
         grid-template-columns: 1fr !important;
     }
+}
+
+.flx {
+    width: 100%;
 }
 
 .springx {
