@@ -172,6 +172,17 @@ body {
 }
 
 
+.section-wrapper .seasons-title {
+    flex: 0 0 100%;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-style: normal;
+    margin-bottom: 0;
+    color: #ceab6a;
+}
+
+
 .columnx {
     padding: 0 10px;
     display: flex;
