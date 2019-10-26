@@ -192,7 +192,6 @@ body {
 
 .cardx {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    /*padding: 16px;*/
     text-align: left;
     background-color: #fff;
     border-radius: 5px;
@@ -395,7 +394,7 @@ p {
 
 
 #parentx {
-    max-width: 1030px;
+    max-width: 1010px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 40px;
