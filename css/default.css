@@ -426,8 +426,15 @@ p {
     }
 }
 
+
+.section.sbuttons{
+    padding: 0px 0px 100px 0px;
+}
+
 .flx {
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .springx {
