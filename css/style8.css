@@ -154,11 +154,18 @@ body {
     flex-wrap: wrap;
 }
 
+.rowsection-test:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .columnx {
+
+
     padding: 0 10px;
     display: flex;
-    width: 25%;
+
 }
 
 .cardx {
@@ -200,7 +207,7 @@ body {
 .rowsection-test .summary-text {}
 
 /* Responsive columns */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
     .columnx {
         flex: 0 1 calc(50%);
         margin-bottom: 20px;

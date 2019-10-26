@@ -150,15 +150,18 @@ body {
 .rowsection-test {
     max-width: 1030px;
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
 }
 
+.rowsection-test:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .columnx {
-    padding: 0 10px;
-    display: flex;
+    float: left;
     width: 25%;
+    padding: 0 10px;
 }
 
 .cardx {
@@ -200,9 +203,10 @@ body {
 .rowsection-test .summary-text {}
 
 /* Responsive columns */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
     .columnx {
-        flex: 0 1 calc(50%);
+        width: 50%;
+        display: block;
         margin-bottom: 20px;
     }
 }
@@ -210,7 +214,8 @@ body {
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .columnx {
-        flex: 0 1 calc(100%);
+        width: 100%;
+        display: block;
         margin-bottom: 20px;
 
     }
