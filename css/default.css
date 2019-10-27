@@ -150,6 +150,7 @@ body {
 .section-wrapper {
     max-width: 1030px;
     margin: auto;
+    padding-left: 20px;
     display: flex;
     flex-wrap: wrap;
     /*    justify-content: center;*/
@@ -164,12 +165,25 @@ body {
     font-style: normal;
     margin-bottom: 0;
     color: #ceab6a;
+    padding-left: 10px;
+}
+
+
+.section.tint p {
+    padding-left: 10px;
+}
+
+.section.tint hr {
+    padding-left: 10px !important;
+    color: red;
+}
+.section.tint br {
 }
 
 
 .section-wrapper.column {
     flex-direction: column;
-    padding-left: 10px;
+    
 }
 
 
