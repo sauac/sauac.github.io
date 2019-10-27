@@ -11,6 +11,7 @@ html {
 body {
     background-color: #efefef;
     margin: 0;
+    -webkit-text-size-adjust: 100%;
     /*padding: 30px;*/
     /*max-width: 100%;*/
 
