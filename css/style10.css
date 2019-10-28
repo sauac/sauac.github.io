@@ -176,7 +176,8 @@ body {
 }
 
 .section.tint hr {
-    
+    padding-left: 10px !important;
+    color: red;
 }
 
 .section.tint br {}
