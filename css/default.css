@@ -562,6 +562,26 @@ p {
     transition: background-color 0.3s ease;
 }
 
+#to-top {
+    background-color: rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 44px;
+    height: 42px;
+    text-align: center;
+    z-index: 1003;
+}
+
+#to-top i {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    color: #fff;
+    font-size: 26px;
+    line-height: 16px;
+}
+
 .copyright-date {
     margin-bottom: 0;
     padding-bottom: 15px;
