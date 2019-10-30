@@ -439,7 +439,7 @@ p {
 }
 
 .flz {
-    width: 22%;
+    flex: 1 1 calc(22%);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     display: flex;
@@ -451,7 +451,7 @@ p {
 }
 
 .springz {
-    padding: 30px;
+/*    padding: 30px;*/
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -462,7 +462,7 @@ p {
 }
 
 .summerz {
-    padding: 30px;
+/*    padding: 30px;*/
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -473,7 +473,7 @@ p {
 }
 
 .autmnz {
-    padding: 30px;
+/*    padding: 30px;*/
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -484,7 +484,7 @@ p {
 }
 
 .winterz {
-    padding: 30px;
+/*    padding: 30px;*/
     font-family: 'Raleway', sans-serif;
     font-style: italic;
     font-weight: 300;
@@ -497,7 +497,7 @@ p {
 /* Responsive columns */
 @media screen and (max-width: 1024px) {
     .flz {
-        flex: 0 1 calc(46%);
+        flex: 1 1 calc(46%);
         
     }
 }
@@ -505,7 +505,7 @@ p {
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .flz {
-        flex: 0 1 calc(100%);
+        flex: 1 1 calc(100%);
         
 
     }
