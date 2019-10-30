@@ -9,31 +9,31 @@
     <script src="https://kit.fontawesome.com/2e63bdd35c.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-      // Store hash
-      var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
 
     <title>The four Seasons</title>
 </head>
@@ -273,6 +273,7 @@ $(document).ready(function(){
 
 
 
+<!--
     <div class="section sbuttons">
         <div class="section-wrapper">
 
@@ -294,23 +295,28 @@ $(document).ready(function(){
 
         </div>
     </div>
-    
-    
-    
+-->
+
+
+
     <div class="section sbuttons">
         <div class="section-wrapper">
 
-            <a class="springz flz" href="#springlink"><p>spring</p>
+            <a class="springz flz" href="#springlink">
+                <p>spring</p>
             </a>
 
-            <a class="summerz flz" href="#summerlink"><p>summer</p>
-            </a>
-            
-
-            <a class="autmnz flz" href="#autumnlink"><p>autumn</p>
+            <a class="summerz flz" href="#summerlink">
+                <p>summer</p>
             </a>
 
-            <a class="winterz flz" href="#winterlink"><p>winter</p>
+
+            <a class="autmnz flz" href="#autumnlink">
+                <p>autumn</p>
+            </a>
+
+            <a class="winterz flz" href="#winterlink">
+                <p>winter</p>
             </a>
 
         </div>
