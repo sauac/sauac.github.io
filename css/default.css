@@ -537,7 +537,7 @@ p {
     background-color: #49686f;
 }
 
-.section-wrapper.footer{
+.section-wrapper.footerbase{
     flex-direction: column;
 /*    justify-content: center;*/
     align-items: center;
