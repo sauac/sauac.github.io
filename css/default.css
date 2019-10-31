@@ -530,24 +530,41 @@ p {
 
 
 
-
 .section.footer-section {
-    display: flex;
     padding-top: 60px;
-    justify-content: center;
-    align-content: center;
+    padding-bottom: 20px;
     color: #fff;
     background-color: #49686f;
 }
 
+.section-wrapper.footer{
+    flex-direction: column;
+/*    justify-content: center;*/
+    align-items: center;
+}
 
 .section.footer-section a{
     text-decoration: none;
 }
 
+.section .git-hub-button {
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 0;
+    color: #000;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
 
+.section .git-hub-button:hover {
+    background-color: #cbcbcb;
+    transition: background-color 0.3s ease;
+}
 
-
+.section .red-text {
+    color: #ff5800;
+}
 
 .fab.fa-github-square{
     font-size: 25px;
@@ -555,19 +572,9 @@ p {
     color: #ff5800;
 }
 
-
-
-.section .git-hub-button {
-    font-size: 14px;
-    padding: 5px;
-    color: #000;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
-}
-
-.section .red-text {
-    color: #ff5800;
+.copyright-year-date {
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
@@ -595,18 +602,6 @@ p {
     color: #ff5800;
     font-size: 25px
 }
-
-
-.copyright-year-date {
-    margin-bottom: 0;
-    padding-bottom: 0 !important;
-}
-.copyright-year-date script {
-}
-
-
-
-
 
 .footer-row .git-hub {
     display: inline-block;
