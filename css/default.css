@@ -108,18 +108,23 @@ body {
     margin-bottom: 20px;
 }
 
+/*
 .cardx {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     text-align: left;
     background-color: #fff;
     border-radius: 5px;
 }
+*/
 
+/*
 .cardx img {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+*/
 
+/*
 .cardy {
     box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.1);
     -webkit-transition: box-shadow 0.5s ease;
@@ -138,6 +143,7 @@ body {
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
 }
+*/
 
 
 .cardz {
@@ -162,13 +168,6 @@ body {
 
 
 
-.section-wrapper .columnx {}
-
-.section-wrapper .cardx {}
-
-.section-wrapper .top-image-test {}
-
-.section-wrapper img {}
 
 .section-wrapper .main-content-test {
     padding: 16px;
@@ -231,6 +230,7 @@ hr {
 }
 
 
+/*
 .card-row {
     margin: auto;
     margin-top: 40px;
@@ -243,8 +243,6 @@ hr {
 
 .card {
     background-color: #fff;
-    /*padding: 25px;*/
-    /*margin-top: 25px !important;*/
     margin-bottom: 20px;
     margin-left: 10px !important;
     margin-right: 10px !important;
@@ -274,13 +272,10 @@ hr {
     font-size: 25px;
 }
 
-/*
 .card:hover {
     cursor: pointer;
 }
-*/
 
-/*
 @media only screen and (max-width: 1024px) {
     .card {
         display: block;
