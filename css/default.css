@@ -522,7 +522,9 @@ p {
     font-style: normal;
 }
 
-.column-footer p {}
+.column-footer p {
+    color: #cbcbcb;
+}
 
 .column-footer p a {
     color: #cbcbcb;
