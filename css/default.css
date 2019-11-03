@@ -524,11 +524,12 @@ p {
 }
 
 .column-footer p a {
-    color: white;
+    color: #cbcbcb;
     text-decoration: none;
 }
 
 .column-footer p a:hover {
+    color: white;
     text-decoration: underline;
     text-decoration-color: #ffffff;
 }
