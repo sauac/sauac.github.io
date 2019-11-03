@@ -535,6 +535,18 @@ p {
     }
 }
 
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .column-footer {
+        flex: 0 1 calc(50%);
+        margin-bottom: 20px;
+
+    }
+}
+
+
+
 /* Responsive columns */
 @media screen and (max-width: 600px) {
     .column-footer {
