@@ -525,6 +525,17 @@ p {
 
 
 
+.column-footer {
+    padding: 0 10px;
+    display: flex;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+
+
+
+
 .section.footer-section {
     padding-top: 60px;
     padding-bottom: 20px;
