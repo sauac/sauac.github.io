@@ -60,6 +60,11 @@ body {
     /*    justify-content: center;*/
 }
 
+.section-wrapper.column {
+    flex-direction: column;
+
+}
+
 .section.tint {
     background-color: #fff;
 }
@@ -77,17 +82,9 @@ body {
     padding-left: 10px;
 }
 
-.section.tint hr {
-    
-}
-
-.section.tint br {}
 
 
-.section-wrapper.column {
-    flex-direction: column;
 
-}
 
 
 .section-wrapper .seasons-title {
@@ -181,11 +178,6 @@ body {
     color: #b3b1b9
 }
 
-.section-wrapper .title-highlight-spring {}
-
-.section-wrapper p {}
-
-.section-wrapper .summary-text {}
 
 /* Responsive wrapper */
 @media screen and (max-width: 1024px) {
@@ -530,6 +522,26 @@ p {
     display: flex;
     width: 25%;
     margin-bottom: 20px;
+    flex-direction: column;
+    
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 1024px) {
+    .column-footer {
+        flex: 0 1 calc(50%);
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column-footer {
+        flex: 0 1 calc(100%);
+        margin-bottom: 20px;
+
+    }
 }
 
 
@@ -542,6 +554,25 @@ p {
     color: #fff;
     background-color: #49686f;
 }
+
+
+
+.column-footer .footheading p {
+}
+.column-footer a {
+}
+.column-footer a p {
+    color: white;
+}
+
+
+/*
+.section-wrapper.footermain{
+    padding-top: 120px;
+}
+*/
+
+
 
 .section-wrapper.footerbase{
     flex-direction: column;
@@ -585,9 +616,7 @@ p {
 }
 
 
-.section-wrapper.footermain{
-    padding-top: 120px;
-}
+
 
 
 
