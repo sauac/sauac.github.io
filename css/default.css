@@ -530,7 +530,7 @@ p {
 /* Responsive columns */
 @media screen and (max-width: 1024px) {
     .column-footer {
-        flex: 0 1 calc(50%);
+        flex: 0 1 calc(25%);
         margin-bottom: 20px;
     }
 }
