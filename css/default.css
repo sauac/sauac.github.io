@@ -55,6 +55,7 @@ body {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     /*    justify-content: center;*/
@@ -582,7 +583,7 @@ p {
     align-items: center;
     text-decoration: none;
     border-top: 1px solid #bfbfbf3d;
-    padding-top: 20px;
+    padding-top: 30px;
     /*    max-width: 100%;*/
 }
 
