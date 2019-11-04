@@ -14,7 +14,6 @@ body {
     -webkit-text-size-adjust: 100%;
     /*padding: 30px;*/
     /*max-width: 100%;*/
-
 }
 
 
@@ -93,10 +92,6 @@ body {
 }
 
 
-
-
-
-
 .section-wrapper .seasons-title {
     flex: 0 0 100%;
     padding-left: 10px;
@@ -114,43 +109,6 @@ body {
     width: 25%;
     margin-bottom: 20px;
 }
-
-/*
-.cardx {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: left;
-    background-color: #fff;
-    border-radius: 5px;
-}
-*/
-
-/*
-.cardx img {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-*/
-
-/*
-.cardy {
-    box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.1);
-    -webkit-transition: box-shadow 0.5s ease;
-    transition: box-shadow 0.5s ease;
-    -webkit-box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.21), 1px 3px 8px rgba(39, 44, 49, 0.03);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 5px;
-}
-
-.cardy:hover {
-    -webkit-transition: box-shadow 0.3s ease;
-    transition: box-shadow 0.3s ease;
-
-    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-}
-*/
 
 
 .cardz {
@@ -172,8 +130,6 @@ body {
     box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.21), 1px 3px 8px rgba(39, 44, 49, 0.03);
 
 }
-
-
 
 
 .section-wrapper .main-content-test {
@@ -232,61 +188,6 @@ hr {
 }
 
 
-/*
-.card-row {
-    margin: auto;
-    margin-top: 40px;
-    max-width: 1030px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-}
-
-.card {
-    background-color: #fff;
-    margin-bottom: 20px;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
-    border-radius: 5px;
-    width: 23%;
-    box-shadow: 3px 3px 18px 0 rgba(0, 0, 0, 0.1);
-    -webkit-transition: box-shadow 0.5s ease;
-    transition: box-shadow 0.5s ease;
-    -webkit-box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-    box-shadow: 8px 14px 38px rgba(39, 44, 49, 0.06), 1px 3px 8px rgba(39, 44, 49, 0.03);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-}
-
-.card:hover {
-    -webkit-transition: box-shadow 0.3s ease;
-    transition: box-shadow 0.3s ease;
-
-    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
-}
-
-.card h1 {
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 25px;
-}
-
-.card:hover {
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 1024px) {
-    .card {
-        display: block;
-        
-        flex-basis: 30%
-        
-    }
-}
-*/
 
 .main-content .title-highlight-spring {
     color: #d4cd48;
@@ -373,57 +274,6 @@ p {
 
 .section.sbuttons {
     padding: 0px 0px 100px 0px;
-}
-
-.flx {
-    width: 100%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-}
-
-.springx {
-    padding: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 24px;
-    color: #08092a;
-    background-color: #d4cd48;
-    text-align: center;
-}
-
-
-.summerx {
-    padding: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 24px;
-    color: #08092a;
-    background-color: #aebd6d;
-    text-align: center;
-}
-
-.autmnx {
-    padding: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 24px;
-    color: #08092a;
-    background-color: #ceab6a;
-    text-align: center;
-}
-
-.winterx {
-    padding: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    font-size: 24px;
-    color: #08092a;
-    background-color: #add6d9;
-    text-align: center;
 }
 
 
@@ -582,7 +432,6 @@ p {
 }
 
 
-
 .section.footer-section2 {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -590,7 +439,6 @@ p {
     background-color: #49686f;
     text-decoration: none;
 }
-
 
 
 .section-wrapper.footerbase {
@@ -644,8 +492,6 @@ p {
     padding-bottom: 0;
     font-size: 14px;
 }
-
-
 
 
 #to-top {
