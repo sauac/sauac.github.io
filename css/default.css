@@ -585,7 +585,7 @@ p {
     align-items: center;
     text-decoration: none;
 /*    border-top: 1px solid #bfbfbf3d;*/
-    border-top: 1px solid red;
+    border-top: 1px solid rgba(190, 190, 190, 0.25);
     padding-top: 30px;
     padding-bottom: 5px;
     /*    max-width: 100%;*/
