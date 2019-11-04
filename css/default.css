@@ -531,12 +531,17 @@ p {
     font-style: normal;
 }
 
+.column-footer h2 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
 .column-footer p {
-    color: #cbcbcb;
+    color: #e0e0e0;
 }
 
 .column-footer p a {
-    color: #cbcbcb;
+    color: #e0e0e0;
     text-decoration: none;
 }
 
