@@ -72,10 +72,19 @@ body {
 
 .section .intro-title {
     font-size: 32px;
-    font-style: normal;
+    font-style: normal;    
     margin-bottom: 0;
     color: #ceab6a;
     padding-left: 10px;
+}
+
+.section-title-divider {
+    height: 0.7px;
+    background-color: #cccccc;
+    width: 200px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    display: flex;
 }
 
 
