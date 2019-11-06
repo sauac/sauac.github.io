@@ -60,14 +60,6 @@ body {
     /*    justify-content: center;*/
 }
 
-.bbb {
-    margin-left: -10px;
-    margin-right: -10px;
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
 .section-wrapper.column {
     flex-direction: column;
 

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--    <meta name="viewport" content="width=device-width,initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/default_holding.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e63bdd35c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    //                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        //                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+    <title>The four Seasons</title>
+</head>
+
+<body>
+
+    <div id="herolink" class="hero">
+        <h1 class="main-title">The four seasons</h1>
+        <h2 class="seasons-sub-heading">the year in words.</h2>
+    </div>
+
+
+    <div class="section tint">
+        <div class="section-wrapper column">
+            <h2 class="intro-title">Natures clock<span class="section-title-divider"></span>
+<!--                <hr>-->
+            </h2>
+
+            <!--            <hr>-->
+
+            <p>The year begins in January, middle of the winter season, which carries on into February. Milder temperatures in March mark the begining of spring, and continue through April into May. <br><br>Summer is anounced in the month of June, with a notable increase in temperature, leading to pleasent outdoor conditions through July into August. <br><br>In September however, temperatures begin to fall, anouncing the start of Autumn. As the warmth slowley disappears through the months of October and November, we are reminded that winter is approaching and its time to put on our warmest coats in time for it's arrivel in the month of December!
+            </p>
+
+        </div>
+    </div>
+
+
+
+    <!--
+    <div class="section">
+        <div class="section-wrapper">
+            <h2 class="seasons-title">Seasons
+                <hr>
+            </h2>
+
+            <div class="columnx">
+                <div class="cardx">
+                    <div class="top-image-test"><img src="images/spring-bench.jpg" alt="spring-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>hopeful <span class="title-highlight-spring">spring</span></h1>
+                        <p>New colour and the scent of vegitation, of grass and of blossom fills the air. It's warmer, the outside more inviting. Everthing alive and new!</p>
+
+                        <span class="summary-text">...this is spring!</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="columnx">
+                <div class="cardx">
+                    <div class="top-image-test"><img src="images/summer-trees-bench.jpg" alt="summer-trees-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>new <span class="title-highlight-summer">summer</span></h1>
+                        <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>
+
+                        <span class="summary-text">...global warming we're told!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="columnx">
+                <div class="cardx">
+                    <div class="top-image-test"><img src="images/bench560435.jpg" alt="autumn bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>peaceful <span class="title-highlight-autumn">autumn</span></h1>
+                        <p>It's that time of year when leaves are red and brown and gold and the trees are more bare and the youthful vibrant attire of summer is fading.</p>
+
+                        <span class="summary-text">...Yet there is a beauty in the bareness!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="columnx">
+                <div class="cardx">
+                    <div class="top-image-test"><img src="images/winter-bench.jpg" alt="winter-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>silent <span class="title-highlight-winter">winter</span></h1>
+                        <p>The landscape, White and stark and barren or so the poems used to say. The warm indoors; less often a necessary refrain to the bitting cold!</p>
+
+                        <span class="summary-text">...again global warming!</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+-->
+
+
+
+
+    <!--
+    <div class="section">
+        <div class="section-wrapper">
+            <h2 class="seasons-title">Seasons
+                <hr>
+            </h2>
+
+            <div class="columnx">
+                <div class="cardy">
+                    <div class="top-image-test"><img src="images/spring-bench.jpg" alt="spring-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>hopeful <span class="title-highlight-spring">spring</span></h1>
+                        <p>New colour and the scent of vegitation, of grass and of blossom fills the air. It's warmer, the outside more inviting. Everthing alive and new!</p>
+
+                        <span class="summary-text">...this is spring!</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="columnx">
+                <div class="cardy">
+                    <div class="top-image-test"><img src="images/summer-trees-bench.jpg" alt="summer-trees-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>new <span class="title-highlight-summer">summer</span></h1>
+                        <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>
+
+                        <span class="summary-text">...global warming we're told!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="columnx">
+                <div class="cardy">
+                    <div class="top-image-test"><img src="images/bench560435.jpg" alt="autumn bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>peaceful <span class="title-highlight-autumn">autumn</span></h1>
+                        <p>It's that time of year when leaves are red and brown and gold and the trees are more bare and the youthful vibrant attire of summer is fading.</p>
+
+                        <span class="summary-text">...Yet there is a beauty in the bareness!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="columnx">
+                <div class="cardy">
+                    <div class="top-image-test"><img src="images/winter-bench.jpg" alt="winter-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>silent <span class="title-highlight-winter">winter</span></h1>
+                        <p>The landscape, White and stark and barren or so the poems used to say. The warm indoors; less often a necessary refrain to the bitting cold!</p>
+
+                        <span class="summary-text">...again global warming!</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+-->
+
+
+
+
+    <div class="section">
+        <div class="section-wrapper">
+            <h2 class="seasons-title">Seasons<span class="section-title-divider"></span>
+<!--                <hr>-->
+            </h2>
+
+            <div id="springlink" class="columnx">
+                <div class="cardz">
+                    <div class="top-image-test"><img src="images/spring-bench.jpg" alt="spring-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>hopeful <span class="title-highlight-spring">spring</span></h1>
+                        <p>New colour and the scent of vegitation, of grass and of blossom fills the air. It's warmer, the outside more inviting. Everthing alive and new!</p>
+
+                        <span class="summary-text">...this is spring!</span>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="summerlink" class="columnx">
+                <div class="cardz">
+                    <div class="top-image-test"><img src="images/summer-trees-bench.jpg" alt="summer-trees-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>new <span class="title-highlight-summer">summer</span></h1>
+                        <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>
+
+                        <span class="summary-text">...global warming we're told!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="autumnlink" class="columnx">
+                <div class="cardz">
+                    <div class="top-image-test"><img src="images/bench560435.jpg" alt="autumn bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>peaceful <span class="title-highlight-autumn">autumn</span></h1>
+                        <p>It's that time of year when leaves are red and brown and gold and the trees are more bare and the youthful vibrant attire of summer is fading.</p>
+
+                        <span class="summary-text">...Yet there is a beauty in the bareness!</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="winterlink" class="columnx">
+                <div class="cardz">
+                    <div class="top-image-test"><img src="images/winter-bench.jpg" alt="winter-bench">
+                    </div>
+                    <div class="main-content-test">
+                        <h1>silent <span class="title-highlight-winter">winter</span></h1>
+                        <p>The landscape, White and stark and barren or so the poems used to say. The warm indoors; less often a necessary refrain to the bitting cold!</p>
+
+                        <span class="summary-text">...again global warming!</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!--
+    <div class="section sbuttons">
+        <div class="section-wrapper">
+
+            <div class="columnx">
+                <div class="springx flx">spring</div>
+            </div>
+
+            <div class="columnx">
+                <div class="summerx flx">summer</div>
+            </div>
+
+            <div class="columnx">
+                <div class="autmnx flx">autumn</div>
+            </div>
+
+            <div class="columnx">
+                <div class="winterx flx">winter</div>
+            </div>
+
+        </div>
+    </div>
+-->
+
+
+
+    <!--
+    <div class="section sbuttons">
+        <div class="section-wrapper">
+
+            <a class="springz flz" href="#springlink">
+                <p>spring</p>
+            </a>
+
+            <a class="summerz flz" href="#summerlink">
+                <p>summer</p>
+            </a>
+
+
+            <a class="autmnz flz" href="#autumnlink">
+                <p>autumn</p>
+            </a>
+
+            <a class="winterz flz" href="#winterlink">
+                <p>winter</p>
+            </a>
+
+        </div>
+    </div>
+-->
+
+
+
+
+
+    <!--
+    <div id="parentx">
+        <div class="springx">spring</div>
+        <div class="summerx">summer</div>
+        <div class="autmnx">autumn</div>
+        <div class="winterx">winter</div>
+    </div>
+-->
+
+
+
+    <!--
+    <div class="footer-row">
+        <a href="https://github.com/" target="_blank" rel="noopener">
+            <p class="git-hub"><span class="highlight-text">via</span><i class="fab fa-github-square"></i> GitHub</p>
+        </a>
+        
+        <a href="#herolink" id="to-top" style="display: block;"><i class="fas fa-angle-up"></i></a>
+
+        <p class="copyright-date">Copyright <script type="text/javascript" src="js/test.js"></script> sauac designs. All rights reserved.</p>
+    </div>
+-->
+
+
+
+    <div class="section footer-section">
+        <div class="section-wrapper footermain">
+
+
+            <div class="column-footer">
+                <h2 class="footheading">Contact</h2>
+
+
+                <p><a href="#springlink">Contact Us</a></p>
+
+
+
+                <p>+44 1234567890</p>
+
+
+
+                <p>+44 7734567890</p>
+
+
+
+                <p><a href="#winterlink">info@4seasons.co.uk</a></p>
+
+
+            </div>
+
+
+            <div class="column-footer">
+                <h2 class="footheading">About</h2>
+
+                <p><a href="#springlink">About Us</a></p>
+
+
+
+                <p><a href="#summerlink">Our Policies</a></p>
+
+
+
+                <p><a href="#autumnlink">Our Vision</a></p>
+
+
+
+                <p><a href="#winterlink">Our Team</a></p>
+
+            </div>
+
+
+            <div class="column-footer">
+                <h2 class="footheading">Useful Links</h2>
+
+                <p><a href="#springlink">Climate change</a></p>
+
+
+
+                <p><a href="#summerlink">Global Warming</a></p>
+
+
+
+                <p><a href="#autumnlink">The Environment</a></p>
+
+
+
+                <p><a href="#winterlink">Environment agency's</a></p>
+
+            </div>
+
+
+            <div class="column-footer">
+                <h2 class="footheading">Seasons</h2>
+
+                <p><a href="#springlink">spring</a></p>
+
+
+
+                <p><a href="#summerlink">summer</a></p>
+
+
+
+                <p><a href="#autumnlink">autumn</a></p>
+
+
+
+                <p><a href="#winterlink">winter</a></p>
+
+            </div>
+
+
+        </div>
+
+
+
+
+<!--
+        <div class="section footer-section2">
+            <div class="section-wrapper footermain2">
+
+                <a class="springz flz" href="#springlink">
+                    <p>spring</p>
+                </a>
+
+                <a class="summerz flz" href="#summerlink">
+                    <p>summer</p>
+                </a>
+
+
+                <a class="autmnz flz" href="#autumnlink">
+                    <p>autumn</p>
+                </a>
+
+                <a class="winterz flz" href="#winterlink">
+                    <p>winter</p>
+                </a>
+
+
+            </div>
+        </div>
+-->
+
+
+
+
+        <div class="section-wrapper footerbase">
+
+            <a href="https://github.com/" target="_blank" rel="noopener">
+                <p class="git-hub-button"><span class="red-text">via</span><i class="fab fa-github-square"></i> GitHub</p>
+            </a>
+
+            <p class="copyright-year-date">Copyright <script type="text/javascript" src="js/test.js"></script> sauac designs. All rights reserved.</p>
+
+            <a href="#herolink" id="to-top" style="display: block;"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+
+</body></html>
