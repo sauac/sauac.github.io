@@ -50,12 +50,10 @@ body {
 
 
 .section-wrapper {
-    max-width: 1030px;
+    max-width: 1050px;
     margin: auto;
-/*
     padding-left: 20px;
     padding-right: 20px;
-*/
     padding-bottom: 30px;
 /*
     display: flex;
@@ -64,7 +62,7 @@ body {
     /*    justify-content: center;*/
 }
 
-.bbb {
+.margin-adjust {
     margin-left: -10px;
     margin-right: -10px;
     display: flex;
@@ -379,9 +377,7 @@ p {
 }
 
 
-.bbb {
-}
-.bbb.footer{
+.margin-adjust.footer{
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -461,6 +457,8 @@ p {
 
 
 .section-wrapper.footerbase {
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     /*    justify-content: center;*/
     align-items: center;
