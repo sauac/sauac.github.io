@@ -52,11 +52,15 @@ body {
 .section-wrapper {
     max-width: 1030px;
     margin: auto;
+/*
     padding-left: 20px;
     padding-right: 20px;
+*/
     padding-bottom: 30px;
+/*
     display: flex;
     flex-wrap: wrap;
+*/
     /*    justify-content: center;*/
 }
 
@@ -373,6 +377,14 @@ p {
     padding-bottom: 20px;
     color: #fff;
     background-color: #49686f;
+}
+
+
+.bbb {
+}
+.bbb.footer{
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 
