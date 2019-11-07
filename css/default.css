@@ -24,7 +24,7 @@ body {
 }
 
 #temp-home {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 0, 0);
     position: relative;
     top: 15px;
     left: 20px;
