@@ -44,6 +44,34 @@ body {
     text-align: center !important;
 }
 
+#temp-home {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 44px;
+    height: 42px;
+    text-align: center;
+    z-index: 1003;
+}
+
+
+/* Responsive wrapper */
+@media screen and (max-width: 1024px) {
+    #temp-home {
+        left: 20;
+    }
+}
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    #temp-home {
+        left: 20;
+    }
+}
+
+
+
 
 .hero {
     margin: auto;
