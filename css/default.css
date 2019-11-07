@@ -24,7 +24,7 @@ body {
 }
 
 #temp-home {
-    background-color: rgba(28, 130, 185, 0.33);
+    background-color: rgba(128, 54, 37, 0.33);
     position: relative;
     top: 15px;
     left: 20px;
@@ -35,7 +35,7 @@ body {
 }
 
 #temp-home:hover {
-    background-color: rgba(75, 60, 60, 0.38);
+    background-color: rgba(93, 83, 83, 0.63);
     transition: background-color 0.4s ease;
 }
 
