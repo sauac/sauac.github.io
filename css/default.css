@@ -17,9 +17,15 @@ body {
 }
 
 
+.homebutton {
+    position: relative !important;
+    width: 0;
+    height: 0;
+}
+
 #temp-home {
     background-color: rgba(0, 0, 0, 0.2);
-    position: fixed;
+    position: relative;
     top: 15px;
     left: 15px;
     width: 44px;
@@ -29,13 +35,13 @@ body {
 }
 
 #temp-home i {
-    position: absolute;
+    position: relative;
     top: 12px;
-    left: 7px;
+/*    left: 7px;*/
     color: #fff;
     font-size: 26px;
     line-height: 16px;
-/*    text-align: center !important;*/
+    text-align: center !important;
 }
 
 
@@ -552,3 +558,5 @@ p {
     font-size: 26px;
     line-height: 16px;
 }
+
+
