@@ -104,6 +104,11 @@ blockquote-temp p {
     font-size: 18px
 }
 
+.text-speech {
+    font-style: italic;
+    color: #1f89b1;
+}
+
 .main-title {
     margin-bottom: 5px;
     font-size: 42px;
