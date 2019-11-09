@@ -98,6 +98,12 @@ blockquote-temp p {
     color: #6c6c6c;
 }
 
+.text-seasons-highlight {
+    color: #a75815;
+    font-style: italic;
+    font-size: 18px
+}
+
 .main-title {
     margin-bottom: 5px;
     font-size: 42px;
