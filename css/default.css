@@ -121,9 +121,10 @@ blockquote-temp p {
 
 .text-style-speech {
 /*    font-family: 'Merriweather', serif;*/
-    font-family: 'Libre Baskerville', serif;
-/*    font-style: normal;*/
-/*    font-size: 18px;*/
+/*    font-family: 'Libre Baskerville', serif;*/
+    font-family: 'Crimson Text', serif;
+    font-style: italic;
+    font-size: 22px;
     color: #000000; 
 }
 
