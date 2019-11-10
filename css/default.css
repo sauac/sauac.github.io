@@ -111,8 +111,9 @@ blockquote-temp p {
 }
 
 .text-style-italic {
-    font-style: italic;
-    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+/*    font-size: 18px;*/
     color: #626262; 
 }
 
