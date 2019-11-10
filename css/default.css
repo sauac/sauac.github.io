@@ -111,10 +111,11 @@ blockquote-temp p {
 }
 
 .text-style-italic {
-    font-family: 'Merriweather', serif;
+/*    font-family: 'Merriweather', serif;*/
+    font-family: 'Libre Baskerville', serif;
     font-style: normal;
 /*    font-size: 18px;*/
-    color: #626262; 
+    color: #000000; 
 }
 
 .main-title {
