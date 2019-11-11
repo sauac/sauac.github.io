@@ -38,7 +38,7 @@ body {
 }
 
 .navunit a p:hover {
-/*    text-decoration: none;*/
+    /*    text-decoration: none;*/
     color: #df9d42;
 }
 
@@ -49,7 +49,7 @@ body {
 
 
 .navbar .section-wrapper {
-    padding-bottom: 0;    
+    padding-bottom: 0;
 }
 
 .navcontainer {
@@ -61,6 +61,64 @@ body {
     display: inline-block;
     padding: 0 20px;
     float: right;
+}
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .navunit {
+        visibility: collapse;
+    }
+}
+
+.hamburger {
+    float: right;
+}
+
+.hamburger span {
+    display: block;
+    top: 15px;
+    right: 20px;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #000000;
+    border-radius: 3px;
+
+    z-index: 1000;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+    visibility: collapse;
+}
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .hamburger span {
+    display: block;
+    top: 15px;
+    right: 20px;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+
+    background: #262626;
+    border-radius: 3px;
+
+    z-index: 1000;
+
+    transform-origin: 4px 0px;
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+        opacity 0.55s ease;
+    visibility: visible;
+}
 }
 
 
@@ -89,7 +147,7 @@ body {
 #temp-home i {
     position: relative;
     top: 12px;
-/*    left: 7px;*/
+    /*    left: 7px;*/
     color: #fff;
     font-size: 26px;
     line-height: 16px;
@@ -129,8 +187,8 @@ body {
     background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
 }
 
-blockquote-temp {
-}
+blockquote-temp {}
+
 /*
 blockquote-temp p {
     padding: 10px 20px;
@@ -171,21 +229,21 @@ blockquote-temp p {
 }
 
 .text-style-italic {
-/*    font-family: 'Merriweather', serif;*/
+    /*    font-family: 'Merriweather', serif;*/
     font-family: 'Raleway', sans-serif;
     font-style: italic;
-/*    font-size: 18px;*/
+    /*    font-size: 18px;*/
     font-size: 18px;
-    color: #2c4e86; 
+    color: #2c4e86;
 }
 
 .text-style-speech {
-/*    font-family: 'Merriweather', serif;*/
-/*    font-family: 'Libre Baskerville', serif;*/
+    /*    font-family: 'Merriweather', serif;*/
+    /*    font-family: 'Libre Baskerville', serif;*/
     font-family: 'Crimson Text', serif;
     font-style: italic;
     font-size: 22px;
-    color: #000000; 
+    color: #000000;
 }
 
 .main-title {
@@ -212,7 +270,7 @@ blockquote-temp p {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
-/*
+    /*
     display: flex;
     flex-wrap: wrap;
 */
@@ -224,7 +282,7 @@ blockquote-temp p {
     margin-right: -10px;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 .section-wrapper.column {
@@ -237,10 +295,10 @@ blockquote-temp p {
 
 .section .intro-title {
     font-size: 32px;
-    font-style: normal;    
+    font-style: normal;
     margin-bottom: 0;
     color: #ceab6a;
-/*    padding-left: 10px;*/
+    /*    padding-left: 10px;*/
 }
 
 .section-title-divider {
@@ -254,13 +312,13 @@ blockquote-temp p {
 
 
 .section.tint p {
-/*    padding-left: 10px;*/
+    /*    padding-left: 10px;*/
 }
 
 
 .section-wrapper .seasons-title {
     flex: 0 0 100%;
-/*    padding-left: 10px;*/
+    /*    padding-left: 10px;*/
     padding-bottom: 20px;
     font-size: 32px;
     font-style: normal;
@@ -534,7 +592,7 @@ p {
 }
 
 
-.margin-adjust.footer{
+.margin-adjust.footer {
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -620,7 +678,7 @@ p {
     /*    justify-content: center;*/
     align-items: center;
     text-decoration: none;
-/*    border-top: 1px solid #bfbfbf3d;*/
+    /*    border-top: 1px solid #bfbfbf3d;*/
     border-top: 1px solid rgba(190, 190, 190, 0.25);
     padding-top: 30px;
     padding-bottom: 5px;
@@ -687,5 +745,3 @@ p {
     font-size: 26px;
     line-height: 16px;
 }
-
-
