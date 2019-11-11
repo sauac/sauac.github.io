@@ -100,7 +100,13 @@ blockquote-temp p {
     color: #6c6c6c;
 }
 
-.section tint,.bold-text {
+.bold-text-italic-me {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.bold-text-italic {
     font-weight: bold;
     font-style: italic;
 }
