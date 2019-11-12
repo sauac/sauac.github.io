@@ -79,12 +79,12 @@ body {
     display: block;
     top: 15px;
     right: 20px;
-    width: 33px;
+    width: 28px;
     height: 4px;
     margin-bottom: 5px;
     position: relative;
 
-    background: #000000;
+    background: #808080;
     border-radius: 3px;
 
     z-index: 1000;
@@ -114,18 +114,20 @@ body {
 }
 
 #temp-home {
-    background-color: rgba(90, 78, 78, 0.19);
+    background-color: rgba(23, 21, 21, 0.33);
     position: relative;
-    top: 15px;
+    top: 10px;
     left: 20px;
-    width: 44px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     z-index: 1003;
+    display: none;
+    visibility: collapse;
 }
 
 #temp-home:hover {
-    background-color: rgba(212, 82, 52, 0.33);
+    background-color: rgba(136, 74, 29, 0.71);
     transition: background-color 0.3s ease;
 }
 
@@ -152,6 +154,8 @@ body {
 @media screen and (max-width: 600px) {
     #temp-home {
         left: 20;
+        display: block;
+        visibility: visible;
     }
 }
 
