@@ -114,10 +114,10 @@ body {
 }
 
 #temp-home {
-    background-color: rgba(23, 21, 21, 0.33);
+    background-color: rgba(149, 116, 27, 0.62);
     position: relative;
     top: 10px;
-    left: 20px;
+    left: 10px;
     width: 40px;
     height: 40px;
     text-align: center;
