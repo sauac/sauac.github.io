@@ -237,6 +237,16 @@ blockquote-temp p {
     color: #fff;
 }
 
+
+
+/* Responsive  */
+@media screen and (max-width: 600px) {
+    .main-title {
+        font-size: 36px;
+    }
+}
+
+
 .seasons-sub-heading {
     margin-top: 5px;
 }
