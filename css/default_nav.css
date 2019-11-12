@@ -95,29 +95,13 @@ body {
         background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
         opacity 0.55s ease;
     visibility: collapse;
+    display: none;
 }
 
 /* Responsive wrapper */
 @media screen and (max-width: 600px) {
     .hamburger span {
     display: block;
-    top: 15px;
-    right: 20px;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-
-    background: #262626;
-    border-radius: 3px;
-
-    z-index: 1000;
-
-    transform-origin: 4px 0px;
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        opacity 0.55s ease;
     visibility: visible;
 }
 }
