@@ -17,92 +17,6 @@ body {
 }
 
 
-
-
-.navbar {
-    top: 0;
-    position: fixed;
-    height: 60px;
-    width: 100%;
-    z-index: 1000;
-    background-color: rgb(255, 255, 255);
-    margin-bottom: 0;
-    display: inline;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-}
-
-
-
-.navunit a {
-    text-decoration: none;
-}
-
-.navunit a p:hover {
-    /*    text-decoration: none;*/
-    color: #df9d42;
-}
-
-.navunit p {
-    color: black;
-    font-size: 18px;
-}
-
-
-.navbar .section-wrapper {
-    padding-bottom: 0;
-}
-
-.navcontainer {
-    position: relative;
-    width: 100%;
-}
-
-.navunit {
-    display: inline-block;
-    padding: 0 20px;
-    float: right;
-}
-
-/* Responsive wrapper */
-@media screen and (max-width: 600px) {
-    .navunit {
-        /*        visibility: collapse;*/
-        display: none;
-    }
-}
-
-.hamburger {
-    float: right;
-}
-
-.hamburger span {
-    display: block;
-    top: 18px;
-    right: 20px;
-    width: 28px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #808080;
-    border-radius: 3px;
-    z-index: 1000;
-    transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
-        opacity 0.55s ease;
-    visibility: collapse;
-    display: none;
-}
-
-/* Responsive wrapper */
-@media screen and (max-width: 600px) {
-    .hamburger span {
-        display: block;
-        visibility: visible;
-    }
-}
-
-
 .homebutton {
     position: relative !important;
     width: 0;
@@ -110,27 +24,25 @@ body {
 }
 
 #temp-home {
-    background-color: rgba(149, 116, 27, 0.62);
+    background-color: rgba(90, 78, 78, 0.19);
     position: relative;
-    top: 10px;
-    left: 10px;
-    width: 40px;
-    height: 40px;
+    top: 15px;
+    left: 20px;
+    width: 44px;
+    height: 42px;
     text-align: center;
     z-index: 1003;
-    display: none;
-    visibility: collapse;
 }
 
 #temp-home:hover {
-    background-color: rgba(136, 74, 29, 0.71);
+    background-color: rgba(212, 82, 52, 0.33);
     transition: background-color 0.3s ease;
 }
 
 #temp-home i {
     position: relative;
     top: 12px;
-    /*    left: 7px;*/
+/*    left: 7px;*/
     color: #fff;
     font-size: 26px;
     line-height: 16px;
@@ -150,8 +62,6 @@ body {
 @media screen and (max-width: 600px) {
     #temp-home {
         left: 20;
-        display: block;
-        visibility: visible;
     }
 }
 
@@ -161,7 +71,7 @@ body {
 .hero {
     margin: auto;
     margin-left: 0;
-    padding-top: 120px;
+    padding-top: 60px;
     padding-bottom: 60px;
     display: flex;
     flex-direction: column;
@@ -172,8 +82,8 @@ body {
     background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
 }
 
-blockquote-temp {}
-
+blockquote-temp {
+}
 /*
 blockquote-temp p {
     padding: 10px 20px;
@@ -214,21 +124,21 @@ blockquote-temp p {
 }
 
 .text-style-italic {
-    /*    font-family: 'Merriweather', serif;*/
+/*    font-family: 'Merriweather', serif;*/
     font-family: 'Raleway', sans-serif;
     font-style: italic;
-    /*    font-size: 18px;*/
+/*    font-size: 18px;*/
     font-size: 18px;
-    color: #2c4e86;
+    color: #2c4e86; 
 }
 
 .text-style-speech {
-    /*    font-family: 'Merriweather', serif;*/
-    /*    font-family: 'Libre Baskerville', serif;*/
+/*    font-family: 'Merriweather', serif;*/
+/*    font-family: 'Libre Baskerville', serif;*/
     font-family: 'Crimson Text', serif;
     font-style: italic;
     font-size: 22px;
-    color: #000000;
+    color: #000000; 
 }
 
 .main-title {
@@ -236,16 +146,6 @@ blockquote-temp p {
     font-size: 42px;
     color: #fff;
 }
-
-
-
-/* Responsive  */
-@media screen and (max-width: 600px) {
-    .main-title {
-        font-size: 36px;
-    }
-}
-
 
 .seasons-sub-heading {
     margin-top: 5px;
@@ -259,18 +159,13 @@ blockquote-temp p {
 }
 
 
-.section.seasons{
-    padding-bottom: 30px;
-}
-
-
 .section-wrapper {
     max-width: 1050px;
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
-    /*
+/*
     display: flex;
     flex-wrap: wrap;
 */
@@ -282,24 +177,23 @@ blockquote-temp p {
     margin-right: -10px;
     display: flex;
     flex-wrap: wrap;
-
+    
 }
 
 .section-wrapper.column {
     flex-direction: column;
 }
 
-.section.natures-clock {
+.section.tint {
     background-color: #fff;
-    padding-bottom: 30px;
 }
 
 .section .intro-title {
     font-size: 32px;
-    font-style: normal;
+    font-style: normal;    
     margin-bottom: 0;
     color: #ceab6a;
-    /*    padding-left: 10px;*/
+/*    padding-left: 10px;*/
 }
 
 .section-title-divider {
@@ -312,14 +206,14 @@ blockquote-temp p {
 }
 
 
-.section.natures-clock p {
-    /*    padding-left: 10px;*/
+.section.tint p {
+/*    padding-left: 10px;*/
 }
 
 
 .section-wrapper .seasons-title {
     flex: 0 0 100%;
-    /*    padding-left: 10px;*/
+/*    padding-left: 10px;*/
     padding-bottom: 20px;
     font-size: 32px;
     font-style: normal;
@@ -437,10 +331,10 @@ hr {
 
 .summary-text {
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     font-style: italic;
-    color: #4e4e4e;
+    color: #000000;
 }
 
 img {
@@ -593,7 +487,7 @@ p {
 }
 
 
-.margin-adjust.footer {
+.margin-adjust.footer{
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -679,7 +573,7 @@ p {
     /*    justify-content: center;*/
     align-items: center;
     text-decoration: none;
-    /*    border-top: 1px solid #bfbfbf3d;*/
+/*    border-top: 1px solid #bfbfbf3d;*/
     border-top: 1px solid rgba(190, 190, 190, 0.25);
     padding-top: 30px;
     padding-bottom: 5px;
@@ -745,14 +639,4 @@ p {
     color: #fff;
     font-size: 26px;
     line-height: 16px;
-}
-
-
-
-.work-doodle {
-    font-style: italic
-}
-
-.normal-text-italic {
-    font-style: italic;
 }

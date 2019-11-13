@@ -28,7 +28,7 @@
                     // Using jQuery's animate() method to add smooth page scroll
                     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                     $('html, body').animate({
-                        scrollTop: $(hash).offset().top
+                        scrollTop: $(hash).offset().top-50
                     }, 800, function() {
 
                         // Add hash (#) to URL when done scrolling (default click behavior)
@@ -44,7 +44,44 @@
 
 <body>
 
-    <div class="homebutton"><a href="index.html" id="temp-home" style="display: block;"><i class="fas fa-home"></i></a></div>
+    <div class="navbar">
+        <div class="section-wrapper nav">
+            <div class="margin-adjust">
+                <div class="navcontainer">
+                    <div class="navunit"><a href="index.html">
+                            <p>Contact</p>
+                        </a></div>
+
+                    <div class="navunit"><a href="#seasons-link">
+                            <p>Seasons</p>
+                        </a></div>
+
+                    <div class="navunit"><a href="about.html">
+                            <p>About</p>
+                        </a></div>
+
+                    <div class="navunit"><a href="index.html">
+                            <p>Home</p>
+                        </a></div>
+
+                    <div class="hamburger">
+
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                    </div>
+
+                    <div class="homebutton"><a href="index.html" id="temp-home" style="display: block;"><i class="fas fa-home"></i></a></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+<!--        <div class="homebutton"><a href="index.html" id="temp-home" style="display: block;"><i class="fas fa-home"></i></a></div>-->
 
     <div id="herolink" class="hero">
         <h1 class="main-title">The four seasons</h1>
@@ -54,7 +91,7 @@
 
 
 
-    <div class="section tint">
+    <div id="natures-clock-link" class="section natures-clock">
         <div class="section-wrapper column">
             <h2 class="intro-title">Natures clock<span class="section-title-divider"></span>
                 <!--                <hr>-->
@@ -212,7 +249,7 @@
 
 
 
-    <div class="section">
+    <div id="seasons-link" class="section seasons">
         <div class="section-wrapper">
             <h2 class="seasons-title">Seasons<span class="section-title-divider"></span>
                 <!--                <hr>-->
