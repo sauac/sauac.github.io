@@ -259,6 +259,11 @@ blockquote-temp p {
 }
 
 
+.section.seasons{
+    padding-bottom: 30px;
+}
+
+
 .section-wrapper {
     max-width: 1050px;
     margin: auto;
@@ -284,8 +289,9 @@ blockquote-temp p {
     flex-direction: column;
 }
 
-.section.tint {
+.section.natures-clock {
     background-color: #fff;
+    padding-bottom: 30px;
 }
 
 .section .intro-title {
@@ -306,7 +312,7 @@ blockquote-temp p {
 }
 
 
-.section.tint p {
+.section.natures-clock p {
     /*    padding-left: 10px;*/
 }
 
@@ -431,10 +437,10 @@ hr {
 
 .summary-text {
     font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     font-style: italic;
-    color: #000000;
+    color: #4e4e4e;
 }
 
 img {
@@ -739,4 +745,14 @@ p {
     color: #fff;
     font-size: 26px;
     line-height: 16px;
+}
+
+
+
+.work-doodle {
+    font-style: italic
+}
+
+.normal-text-italic {
+    font-style: italic;
 }
