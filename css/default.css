@@ -110,7 +110,6 @@ body {
 }
 
 #temp-home {
-    background-color: rgba(149, 116, 27, 0.62);
     position: relative;
     top: 10px;
     left: 10px;
@@ -118,6 +117,8 @@ body {
     height: 40px;
     text-align: center;
     z-index: 1003;
+    background-color: rgba(149, 116, 27, 0.62);
+    border: solid 1px #717171;
 /*    display: none;*/
     visibility: visible;
 }
