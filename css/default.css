@@ -17,8 +17,6 @@ body {
 }
 
 
-
-
 .navbar {
     top: 0;
     position: fixed;
@@ -30,8 +28,6 @@ body {
     display: inline;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
-
-
 
 .navunit a {
     text-decoration: none;
@@ -46,7 +42,6 @@ body {
     color: black;
     font-size: 18px;
 }
-
 
 .navbar .section-wrapper {
     padding-bottom: 0;
@@ -102,7 +97,6 @@ body {
     }
 }
 
-
 .homebutton {
     position: relative !important;
     width: 0;
@@ -154,7 +148,6 @@ body {
     }
 }
 
-
 .section.hero{
     padding-bottom: 60px;
     background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);  
@@ -177,12 +170,16 @@ body {
     color: #fff;
 }
 
+/* Responsive  */
+@media screen and (max-width: 600px) {
+    .main-title {
+        font-size: 36px;
+    }
+}
+
 .section .hero-sub-heading {
     margin-top: 5px;
 }
-
-
-
 
 /*
 .hero {
@@ -200,7 +197,7 @@ body {
 }
 */
 
-blockquote-temp {}
+
 
 /*
 blockquote-temp p {
@@ -259,29 +256,7 @@ blockquote-temp p {
     color: #000000;
 }
 
-/*
-.main-title {
-    margin-bottom: 5px;
-    font-size: 42px;
-    color: #fff;
-}
-*/
 
-
-
-/* Responsive  */
-@media screen and (max-width: 600px) {
-    .main-title {
-        font-size: 36px;
-    }
-}
-
-
-/*
-.seasons-sub-heading {
-    margin-top: 5px;
-}
-*/
 
 
 .section {
@@ -289,12 +264,6 @@ blockquote-temp p {
     padding-bottom: 50px;
     background-color: #F7F7FA;
 }
-
-
-.section.seasons{
-    padding-bottom: 30px;
-}
-
 
 .section-wrapper {
     max-width: 1050px;
@@ -317,13 +286,14 @@ blockquote-temp p {
 
 }
 
-.section-wrapper.column {
-    flex-direction: column;
-}
 
 .section.natures-clock {
     background-color: #fff;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
+}
+
+.section-wrapper.column {
+    flex-direction: column;
 }
 
 .section .intro-title {
@@ -348,6 +318,10 @@ blockquote-temp p {
     /*    padding-left: 10px;*/
 }
 
+
+.section.seasons{
+    padding-bottom: 50px;
+}
 
 .section-wrapper .seasons-title {
     flex: 0 0 100%;
