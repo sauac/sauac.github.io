@@ -118,8 +118,8 @@ body {
     height: 40px;
     text-align: center;
     z-index: 1003;
-    display: none;
-    visibility: collapse;
+/*    display: none;*/
+    visibility: visible;
 }
 
 #temp-home:hover {
