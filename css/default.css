@@ -172,8 +172,8 @@ body {
 
 /* Responsive  */
 @media screen and (max-width: 600px) {
-    .main-title {
-        font-size: 34px;
+    .section .hero .main-title {
+        font-size: 36px;
     }
 }
 
