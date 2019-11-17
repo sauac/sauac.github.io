@@ -152,7 +152,7 @@ body {
  */
 .hamburger input:checked ~ span {
     opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
+    transform: rotate(45deg) translate(1px, 3px);
     background: #232323;
 }
 
@@ -168,8 +168,76 @@ body {
  * Ohyeah and the last one should go the other direction
  */
 .hamburger input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
+    transform: rotate(-45deg) translate(0, 1px);
 }
+
+
+
+
+
+.hamburger #menu {
+    position: absolute;
+    width: 300px;
+    margin: -100px 0 0 60px;
+    padding: 50px;
+    padding-top: 125px;
+
+    background: #ffffff;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    /* to stop flickering of text in safari */
+
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+
+    /*
+    visibility: collapse;
+    display: none;
+*/
+}
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .hamburger #menu {
+
+        display: block;
+        visibility: visible;
+    }
+
+}
+
+
+.hamburger a {
+    text-decoration: none;
+}
+
+.hamburger li {
+    color: black;
+    padding: 10px 0;
+    font-size: 22px;
+}
+
+.hamburger input:checked ~ #menu {
+    transform: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
