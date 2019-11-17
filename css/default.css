@@ -67,13 +67,53 @@ body {
 }
 
 .hamburger {
+    display: block;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
     float: right;
 }
 
+
+.hamburger input {
+    display: block;
+    width: 35px;
+    height: 32px;
+    position: absolute;
+    top: -8px;
+    right: -7px;
+
+    cursor: pointer;
+
+    opacity: 0;
+    /* hide this */
+    z-index: 1002;
+    /* and place it over the hamburger */
+
+    -webkit-touch-callout: none;
+    visibility: collapse;
+    display: none;
+}
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .hamburger input {
+        display: block;
+        visibility: visible;
+    }
+}
+
+
+
 .hamburger span {
     display: block;
+    /*
     top: 18px;
     right: 20px;
+*/
     width: 28px;
     height: 4px;
     margin-bottom: 5px;
@@ -97,6 +137,42 @@ body {
     }
 }
 
+.hamburger span:first-child {
+    transform-origin: 0% 0%;
+}
+
+.hamburger span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+}
+
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+.hamburger input:checked ~ span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+.hamburger input:checked ~ span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+.hamburger input:checked ~ span:nth-last-child(2) {
+    transform: rotate(-45deg) translate(0, -1px);
+}
+
+
+
 .homebutton {
     position: relative !important;
     width: 0;
@@ -113,7 +189,7 @@ body {
     z-index: 1003;
     background-color: rgba(149, 116, 27, 0.62);
     border: solid 1px #717171;
-/*    display: none;*/
+    /*    display: none;*/
     visibility: visible;
 }
 
@@ -148,12 +224,12 @@ body {
     }
 }
 
-.section.hero{
+.section.hero {
     padding-bottom: 60px;
-    background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);  
+    background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
 }
 
-.section-wrapper.hero{
+.section-wrapper.hero {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -161,7 +237,7 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-/*    padding-bottom: 60px;*/
+    /*    padding-bottom: 60px;*/
 }
 
 .section .hero .main-title {
@@ -270,7 +346,7 @@ blockquote-temp p {
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
-/*    padding-bottom: 30px;*/
+    /*    padding-bottom: 30px;*/
     /*
     display: flex;
     flex-wrap: wrap;
@@ -319,7 +395,7 @@ blockquote-temp p {
 }
 
 
-.section.seasons{
+.section.seasons {
     padding-bottom: 50px;
 }
 
