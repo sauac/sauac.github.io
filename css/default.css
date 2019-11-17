@@ -220,7 +220,18 @@ body {
 }
 
 .hamburger input:checked ~ #menu {
-    transform: 100%;
+    transform: -100%;
+}
+
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .hamburger input:checked ~ #menu {
+/*        display: none;*/
+        transition: all 0.3s ease;
+        transform: -100%;
+    }
+
 }
 
 
