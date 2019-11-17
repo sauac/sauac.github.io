@@ -181,7 +181,7 @@ body {
     margin: -100px 0 0 60px;
     padding: 50px;
     padding-top: 125px;
-
+    font-family: 'Raleway', sans-serif;
     background: #ffffff;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -214,9 +214,16 @@ body {
 }
 
 .hamburger li {
+    
     color: black;
     padding: 10px 0;
     font-size: 22px;
+}
+
+.hamburger li:hover {
+    color: #df9d42;
+/*    transition: color 0.2s;*/
+    
 }
 
 .hamburger input:checked ~ #menu {
