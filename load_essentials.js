@@ -1,0 +1,101 @@
+document.getElementById("myFooter").innerHTML =
+	"<div class="section footer-section">
+        <div class="section-wrapper footermain">
+            <div class="margin-adjust footer">
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">Contact</h2>
+
+
+                    <p><a href="#springlink">Contact Us</a></p>
+
+
+
+                    <p>+44 1234567890</p>
+
+
+
+                    <p>+44 7734567890</p>
+
+
+
+                    <p><a href="#winterlink">info@4seasons.co.uk</a></p>
+
+
+                </div>
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">About</h2>
+
+                    <p><a href="about.html">About Us</a></p>
+
+
+
+                    <p><a href="#summerlink">Our Policies</a></p>
+
+
+
+                    <p><a href="#autumnlink">Our Vision</a></p>
+
+
+
+                    <p><a href="#winterlink">Our Team</a></p>
+
+                </div>
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">Useful Links</h2>
+
+                    <p><a href="#springlink">Climate change</a></p>
+
+
+
+                    <p><a href="#summerlink">Global Warming</a></p>
+
+
+
+                    <p><a href="#autumnlink">The Environment</a></p>
+
+
+
+                    <p><a href="#winterlink">Environment agency's</a></p>
+
+                </div>
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">Seasons</h2>
+
+                    <p><a href="#springlink">spring</a></p>
+
+
+
+                    <p><a href="#summerlink">summer</a></p>
+
+
+
+                    <p><a href="#autumnlink">autumn</a></p>
+
+
+
+                    <p><a href="#winterlink">winter</a></p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section-wrapper footerbase">
+
+            <a href="https://github.com/" target="_blank" rel="noopener">
+                <p class="git-hub-button"><span class="red-text">via</span><i class="fab fa-github-square"></i> GitHub</p>
+            </a>
+
+            <p class="copyright-year-date">Copyright <script type="text/javascript" src="js/test.js"></script> sauac designs. All rights reserved.</p>
+
+            <a href="#totoplink" id="to-top" style="display: block;"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>"; 
