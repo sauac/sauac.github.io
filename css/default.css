@@ -168,7 +168,7 @@ body {
  * Ohyeah and the last one should go the other direction
  */
 .hamburger input:checked ~ span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, 1px);
+    transform: rotate(-45deg) translate(0px, 0px);
 }
 
 
@@ -178,6 +178,7 @@ body {
 .hamburger #menu {
     position: absolute;
     width: 300px;
+    height: inherit;
     margin: -100px 0 0 60px;
     padding: 50px;
     padding-top: 125px;
@@ -192,7 +193,7 @@ body {
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 
-    
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
     visibility: collapse;
     display: none;
 
