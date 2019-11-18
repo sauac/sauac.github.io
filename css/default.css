@@ -176,13 +176,9 @@ body {
 
 
 .hamburger #menu {
-    
-    text-align: center;
-    right: 0 !important;
-    left: 0 !important;
     position: absolute;
-    width: 550px;
-    margin: 0 auto !important;
+    width: 300px;
+    margin: -100px 0 0 60px;
     padding: 50px;
     padding-top: 125px;
     font-family: 'Raleway', sans-serif;
@@ -192,7 +188,7 @@ body {
     /* to stop flickering of text in safari */
 
     transform-origin: 0% 0%;
-    transform: translate(-100%, -100%);
+    transform: translate(none, 0);
 
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 
@@ -226,7 +222,7 @@ body {
 
 .hamburger li:hover {
     color: #df9d42;
-    transition: color 0.2s;
+/*    transition: color 0.2s;*/
     
 }
 
