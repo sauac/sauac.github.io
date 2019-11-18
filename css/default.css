@@ -178,8 +178,8 @@ body {
 .hamburger #menu {
     position: absolute;
     width: 300px;
-    height: inherit;
-    margin: -100px 0 0 60px;
+    height: 100vh;
+    margin: -50px 0 0 60px;
     padding: 50px;
     padding-top: 125px;
     font-family: 'Raleway', sans-serif;
