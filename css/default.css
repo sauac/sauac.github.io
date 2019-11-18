@@ -59,7 +59,7 @@ body {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .navunit {
         /*        visibility: collapse;*/
         display: none;
@@ -99,7 +99,7 @@ body {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .hamburger input {
         display: block;
         visibility: visible;
@@ -130,7 +130,7 @@ body {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .hamburger span {
         display: block;
         visibility: visible;
@@ -179,9 +179,9 @@ body {
     position: absolute;
     width: 300px;
     height: 100vh;
-    margin: -50px 0 0 60px;
+    margin: -50px 0 10px 60px;
     padding: 50px;
-    padding-top: 125px;
+    padding-top: 70px;
     font-family: 'Raleway', sans-serif;
     background: #ffffff;
     list-style-type: none;
@@ -200,7 +200,7 @@ body {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .hamburger #menu {
 
         display: block;
