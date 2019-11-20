@@ -254,23 +254,7 @@ body {
 
 
 
-.menu-github-button {
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    border-top: 1px solid #bfbfbf3d;
-    border-top: 1px solid rgba(190, 190, 190, 0.25);
 
-    padding-bottom: 5px;
-
-    margin-top: 20px !important;
-        margin: auto;
-    padding-top: 30px;
-/*
-    padding-left: 0px;
-    padding-right: 0px;
-*/
-}
 
 .responsive-menu {
     position: relative;
@@ -361,6 +345,18 @@ body {
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
+.menu-github-section {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px !important;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    border-top: 1px solid rgba(190, 190, 190, 0.25);
+
+}
+
 .responsive-menu .git-hub-button:hover {
     background-color: #dfdded;
     transition: background-color 0.3s ease;
@@ -374,8 +370,8 @@ body {
     margin: 0;
     padding: 0
 }
-.responsive-menu #menu-list a {
-}
+
+.responsive-menu #menu-list a {}
 
 
 .homebutton {
