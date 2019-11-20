@@ -274,13 +274,13 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-        border-top: 1px solid #bfbfbf3d;
+    border-top: 1px solid #bfbfbf3d;
     border-top: 1px solid rgba(190, 190, 190, 0.25);
 
     padding-bottom: 5px;
-    
+
     margin-top: 20px !important;
-/*    margin: auto;*/
+    /*    margin: auto;*/
     padding-top: 30px;
     padding-left: 0px;
     padding-right: 0px;
@@ -290,7 +290,7 @@ body {
     position: relative;
     width: 300px;
     height: 100vh;
-/*
+    /*
     margin: 0px 0 10px 60px;
     padding: 50px;
     padding-top: 70px;
@@ -299,8 +299,8 @@ body {
     background: #ffffff;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
-    
-/*
+
+    /*
     transform-origin: 0% 0%;
     transform: translate(none, 0);
 */
@@ -308,8 +308,8 @@ body {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-    
-/*
+
+    /*
     visibility: collapse;
     display: none;
 */
@@ -323,7 +323,7 @@ body {
     padding-top: 40px;
     padding-bottom: 30px;
     border-top: 1px solid rgba(190, 190, 190, 0.25);
-/*
+    /*
     width: 300px;
     height: 100vh;
     margin: 0px 0 10px 60px;
@@ -341,30 +341,32 @@ body {
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 */
-/*
+    /*
     visibility: collapse;
     display: none;
 */
 }
+
 .responsive-menu #menu-list a {
     text-decoration: none;
 }
+
 .responsive-menu li {
     color: black;
     padding: 10px 0;
     font-size: 22px;
-    list-style-type:none;
+    list-style-type: none;
 }
 
 
 .responsive-menu .section-wrapper {
     margin-top: 30px;
     padding-top: 30px;
-/*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
+    /*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
 }
 
-.responsive-menu .section-wrapper.resposive-menu .section-wrapper a {
-}
+.responsive-menu .section-wrapper.resposive-menu .section-wrapper a {}
+
 .responsive-menu .git-hub-button {
     font-size: 14px;
     padding: 5px;
@@ -380,10 +382,10 @@ body {
     background-color: #dfdded;
     transition: background-color 0.3s ease;
 }
-.responsive-menu .red-text {
-}
-.responsive-menu .fab {
-}
+
+.responsive-menu .red-text {}
+
+.responsive-menu .fab {}
 
 
 
