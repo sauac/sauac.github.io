@@ -358,14 +358,11 @@ body {
     list-style-type: none;
 }
 
-
 .responsive-menu .section-wrapper {
     margin-top: 30px;
     padding-top: 30px;
     /*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
 }
-
-.responsive-menu .section-wrapper.resposive-menu .section-wrapper a {}
 
 .responsive-menu .git-hub-button {
     font-size: 14px;
@@ -383,16 +380,14 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.responsive-menu .red-text {}
-
 .responsive-menu .fab {}
 
 
 
-
-
-
-
+.responsive-menu #menu-list {
+}
+.responsive-menu #menu-list a {
+}
 
 
 .homebutton {
