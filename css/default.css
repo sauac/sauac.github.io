@@ -241,12 +241,28 @@ body {
 .responsive-menu2 {
 }
 .responsive-menu2 #menu-section {
+    position: relative !important;
+    margin: 0px 0 0px 0px !important;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(190, 190, 190, 0.25);
+}
+
+.responsive-menu2 #menu-section a {
+    text-decoration: none;
 }
 .responsive-menu2 #menu-list {
+    margin: 0;
+    padding: 0
 }
 .responsive-menu2 #menu-list a {
 }
 .responsive-menu2 li {
+    color: black !important;
+    padding: 10px 0 !important;
+    font-size: 22px;
+    list-style-type: none;
 }
 .responsive-menu2 .menu-github-section {
 }
@@ -333,10 +349,10 @@ body {
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 
-    /*
+    
     visibility: collapse;
     display: none;
-*/
+
 }
 
 
@@ -401,11 +417,13 @@ body {
     list-style-type: none;
 }
 
+/*
 .responsive-menu .section-wrapper {
     margin-top: 30px;
     padding-top: 30px;
-    /*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
+    
 }
+*/
 
 .responsive-menu .git-hub-button {
     font-size: 14px;
