@@ -289,7 +289,7 @@ body {
 */
 
 
-.resposive-menu {
+.responsive-menu {
     position: relative;
     width: 300px;
     height: 100vh;
@@ -318,7 +318,7 @@ body {
 }
 
 
-.resposive-menu #menu-list {
+.responsive-menu #menu-list {
     position: relative !important;
     margin: 0px 0 0px 0px;
     padding: 50px;
@@ -347,10 +347,10 @@ body {
     display: none;
 */
 }
-.resposive-menu #menu-list a {
+.responsive-menu #menu-list a {
     text-decoration: none;
 }
-.resposive-menu li {
+.responsive-menu li {
     color: black;
     padding: 10px 0;
     font-size: 22px;
@@ -358,15 +358,15 @@ body {
 }
 
 
-.resposive-menu .section-wrapper {
+.responsive-menu .section-wrapper {
     margin-top: 30px;
     padding-top: 30px;
     border-top: 1px solid rgba(190, 190, 190, 0.25);
 }
 
-.resposive-menu .section-wrapper.resposive-menu .section-wrapper a {
+.responsive-menu .section-wrapper.resposive-menu .section-wrapper a {
 }
-.resposive-menu .git-hub-button {
+.responsive-menu .git-hub-button {
     font-size: 14px;
     padding: 5px;
     margin-top: 0;
@@ -377,13 +377,13 @@ body {
     box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
 }
 
-.resposive-menu .git-hub-button:hover {
+.responsive-menu .git-hub-button:hover {
     background-color: #dfdded;
     transition: background-color 0.3s ease;
 }
-.resposive-menu .red-text {
+.responsive-menu .red-text {
 }
-.resposive-menu .fab {
+.responsive-menu .fab {
 }
 
 
