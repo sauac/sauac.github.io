@@ -267,6 +267,7 @@ body {
 }
 */
 
+/*
 .section-wrapper.menusection {
     display: flex;
     flex-wrap: wrap;
@@ -274,23 +275,56 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    /*    border-top: 1px solid #bfbfbf3d;*/
+        border-top: 1px solid #bfbfbf3d;
     border-top: 1px solid rgba(190, 190, 190, 0.25);
 
     padding-bottom: 5px;
-    /*    max-width: 100%;*/
-
-    /*    max-width: 1050px;*/
+    
     margin-top: 50px !important;
     margin: auto;
     padding-top: 30px;
     padding-left: 0px;
     padding-right: 0px;
 }
+*/
 
 
 .resposive-menu {
-    position: absolute;
+    position: relative;
+    width: 300px;
+    height: 100vh;
+/*
+    margin: 0px 0 10px 60px;
+    padding: 50px;
+    padding-top: 70px;
+*/
+    font-family: 'Raleway', sans-serif;
+    background: #ffffff;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    
+/*
+    transform-origin: 0% 0%;
+    transform: translate(none, 0);
+*/
+
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+/*
+    visibility: collapse;
+    display: none;
+*/
+}
+
+
+.resposive-menu #menu-list {
+    position: relative !important;
+    margin: 0px 0 0px 0px;
+    padding: 50px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(190, 190, 190, 0.25);
+/*
     width: 300px;
     height: 100vh;
     margin: 0px 0 10px 60px;
@@ -307,12 +341,11 @@ body {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+*/
 /*
     visibility: collapse;
     display: none;
 */
-}
-.resposive-menu #menu-list {
 }
 .resposive-menu #menu-list a {
     text-decoration: none;
@@ -323,8 +356,14 @@ body {
     font-size: 22px;
     list-style-type:none;
 }
+
+
 .resposive-menu .section-wrapper {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(190, 190, 190, 0.25);
 }
+
 .resposive-menu .section-wrapper.resposive-menu .section-wrapper a {
 }
 .resposive-menu .git-hub-button {
