@@ -316,7 +316,7 @@ body {
 }
 
 
-.responsive-menu #menu-list {
+.responsive-menu #menu-section {
     position: relative !important;
     margin: 0px 0 0px 0px;
     padding: 50px;
@@ -347,7 +347,7 @@ body {
 */
 }
 
-.responsive-menu #menu-list a {
+.responsive-menu #menu-section a {
     text-decoration: none;
 }
 
