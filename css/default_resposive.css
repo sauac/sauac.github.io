@@ -267,7 +267,6 @@ body {
 }
 */
 
-/*
 .section-wrapper.menusection {
     display: flex;
     flex-wrap: wrap;
@@ -280,13 +279,12 @@ body {
 
     padding-bottom: 5px;
     
-    margin-top: 50px !important;
-    margin: auto;
+    margin-top: 20px !important;
+/*    margin: auto;*/
     padding-top: 30px;
     padding-left: 0px;
     padding-right: 0px;
 }
-*/
 
 .responsive-menu {
     position: relative;
@@ -310,10 +308,9 @@ body {
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
 
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-/*
+    
     visibility: collapse;
     display: none;
-*/
 }
 
 
@@ -321,8 +318,9 @@ body {
     position: relative !important;
     margin: 0px 0 0px 0px;
     padding: 50px;
-    padding-top: 20px;
-    border-bottom: 1px solid rgba(190, 190, 190, 0.25);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(190, 190, 190, 0.25);
 /*
     width: 300px;
     height: 100vh;
@@ -360,7 +358,7 @@ body {
 .responsive-menu .section-wrapper {
     margin-top: 30px;
     padding-top: 30px;
-    border-top: 1px solid rgba(190, 190, 190, 0.25);
+/*    border-top: 1px solid rgba(190, 190, 190, 0.25);*/
 }
 
 .responsive-menu .section-wrapper.resposive-menu .section-wrapper a {
