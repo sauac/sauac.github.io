@@ -982,6 +982,11 @@ p {
     background-color: #49686f;
 }
 
+.section.footer-section p {
+    line-height: initial;
+}
+
+line-height: initial;
 
 .margin-adjust.footer {
     margin-left: -10px;
@@ -1009,7 +1014,7 @@ p {
 
 .column-footer p {
     color: #e0e0e0;
-    line-height: initial;
+/*    line-height: initial;*/
 }
 
 .column-footer p a {
