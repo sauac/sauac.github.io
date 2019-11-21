@@ -15,6 +15,7 @@ body {
     /*padding: 30px;*/
     /*max-width: 100%;*/
 }
+
 body p {
     line-height: 1.5;
 }
@@ -359,7 +360,7 @@ body p {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 
 
-    
+
     visibility: collapse;
     display: none;
 
@@ -493,9 +494,7 @@ body p {
     }
 }
 
-.navunit .site-home {
-    
-}
+.navunit .site-home {}
 
 .navunit h2 {
     font-family: 'Raleway', sans-serif;
@@ -504,10 +503,10 @@ body p {
     font-size: 25px;
     margin: 10px 0;
     margin-top: 15px;
-/*    padding: 0;*/
-/*    margin: 0;*/
+    /*    padding: 0;*/
+    /*    margin: 0;*/
     color: #606060;
-/*    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.26);*/
+    /*    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.26);*/
     letter-spacing: 4px;
 }
 
@@ -517,10 +516,7 @@ body p {
 }
 
 
-.site-home {
-    
-    
-}
+.site-home {}
 
 
 
@@ -756,7 +752,7 @@ blockquote-temp p {
 
 
 .section.natures-clock p {
-/*    line-height: 1.5;*/
+    /*    line-height: 1.5;*/
     /*    padding-left: 10px;*/
 }
 
@@ -818,7 +814,7 @@ blockquote-temp p {
     font-style: italic;
     font-weight: 300;
     font-size: 25px;
-/*    color: #b3b1b9;*/
+    /*    color: #b3b1b9;*/
 }
 
 
@@ -1076,7 +1072,7 @@ line-height: initial;
 
 .column-footer p {
     color: #e0e0e0;
-/*    line-height: initial;*/
+    /*    line-height: initial;*/
 }
 
 .column-footer p a {
@@ -1214,5 +1210,3 @@ line-height: initial;
 .normal-text-italic {
     font-style: italic;
 }
-
-
