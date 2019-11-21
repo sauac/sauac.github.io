@@ -721,6 +721,10 @@ blockquote-temp p {
     margin-bottom: 20px;
 }
 
+.columnx p {
+    line-height: 1.3;
+}
+
 
 .cardz {
     -webkit-transition: box-shadow 0.3s ease;
@@ -752,7 +756,7 @@ blockquote-temp p {
     font-style: italic;
     font-weight: 300;
     font-size: 25px;
-    color: #b3b1b9
+/*    color: #b3b1b9;*/
 }
 
 
@@ -1005,6 +1009,7 @@ p {
 
 .column-footer p {
     color: #e0e0e0;
+    line-height: initial;
 }
 
 .column-footer p a {
