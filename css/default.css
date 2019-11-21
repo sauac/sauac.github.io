@@ -15,6 +15,9 @@ body {
     /*padding: 30px;*/
     /*max-width: 100%;*/
 }
+body p {
+    line-height: 1.5;
+}
 
 
 .navbar {
@@ -691,6 +694,7 @@ blockquote-temp p {
 
 
 .section.natures-clock p {
+/*    line-height: 1.5;*/
     /*    padding-left: 10px;*/
 }
 
