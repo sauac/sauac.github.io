@@ -507,7 +507,7 @@ body p {
     margin-top: 15px;
     /*    padding: 0;*/
     /*    margin: 0;*/
-    color: #525c50;
+    color: #69655d;
     /*    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.26);*/
     letter-spacing: 4px;
 }
@@ -547,7 +547,7 @@ body p {
 
 
 a .navunit:hover {
-    filter: brightness(1.2);
+    filter: brightness(1.4);
 }
 
 
