@@ -33,19 +33,7 @@ body p {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
-.navunit a {
-    text-decoration: none;
-}
 
-.navunit a p:hover {
-    /*    text-decoration: none;*/
-    color: #df9d42;
-}
-
-.navunit p {
-    color: #49686F;
-    font-size: 18px;
-}
 
 .navbar .section-wrapper {
     padding-bottom: 0;
@@ -60,6 +48,29 @@ body p {
     display: inline-block;
     padding: 0 20px;
     float: right;
+}
+
+.navunit a {
+    text-decoration: none;
+}
+
+.navunit a p:hover {
+    /*    text-decoration: none;*/
+    color: #df9d42;
+}
+
+.navunit p {
+    color: #49686F;
+    font-size: 18px;
+}
+
+.menu-margin-adjust {
+    margin-right: -10px;
+}
+
+
+.navunit .menu-rgt-padding {
+/*    margin-right: -10px !important;*/
 }
 
 /* Responsive wrapper */
@@ -1239,3 +1250,4 @@ line-height: initial;
 .normal-text-italic {
     font-style: italic;
 }
+
