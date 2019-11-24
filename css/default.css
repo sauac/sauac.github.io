@@ -74,7 +74,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .navunit {
         /*        visibility: collapse;*/
         display: none;
@@ -114,7 +114,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .hamburger input {
         display: block;
         visibility: visible;
@@ -145,7 +145,7 @@ body p {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .hamburger span {
         display: block;
         visibility: visible;
@@ -242,7 +242,7 @@ body p {
 
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .hamburger .responsive-menu2 {
 
         display: block;
@@ -497,7 +497,7 @@ body p {
 
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .navunit.home {
         /*        visibility: collapse;*/
         display: none;
@@ -570,7 +570,7 @@ a .navunit:hover {
 }
 
 /* Responsive wrapper */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .homebutton {
         display: block;
         visibility: visible;
