@@ -812,6 +812,12 @@ blockquote-temp p {
 }
 
 
+
+.margin-adjust.contact-tp {
+    margin-top: -70px;
+}
+
+
 .columnx {
     padding: 0 10px;
     display: flex;
@@ -822,6 +828,83 @@ blockquote-temp p {
 .columnx p {
     line-height: 1.4;
 }
+
+
+
+
+
+
+.columnx.contact-details {
+    padding: 0 10px;
+    display: flex;
+/*    width: 0.35;*/
+/*    flex: 1 33;*/
+    flex: 0 1 calc(33%);
+    margin-bottom: 20px;
+    
+/*    z-index: 1000 !important;*/
+}
+
+.columnx.contact-details-2 {
+    padding: 0 10px;
+    display: flex;
+/*    width: 66%;*/
+    flex: 1 auto;
+    margin-bottom: 20px;
+    
+/*    z-index: 1000 !important;*/
+}
+
+
+
+
+
+.columnx .cardz {
+    background-color: white;
+    width: 100%;
+}
+
+.columnx .cardz p a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+.columnx .top-image-test {
+}
+
+
+.cardz.contact-card{
+/*    background-color: white;*/
+}
+
+
+
+.contact-top .main-content-block p .fas {
+    color: #49686F;
+    padding-right: 10px;
+}
+
+.contact-top .main-content-block h1 {
+    font-style: normal;
+    color: #49686F;
+}
+
+.contact-top .main-content-block {
+    padding: 25px !important;
+}
+
+.contact-top .main-content-block p {
+}
+
+.contact-top .main-content-block p a {
+}
+
+
+
+
+
+
+
 
 
 .cardz {
@@ -845,7 +928,7 @@ blockquote-temp p {
 }
 
 
-.section-wrapper .main-content-test {
+.section-wrapper .main-content-block {
     padding: 20px;
 }
 
