@@ -43,7 +43,7 @@ body p {
 }
 
 .navunit p {
-    color: black;
+    color: #49686F;
     font-size: 18px;
 }
 
@@ -644,6 +644,7 @@ a .navunit:hover {
 
 .section .hero-sub-heading {
     margin-top: 5px;
+/*    color: #49686F;*/
 }
 
 /*
@@ -834,7 +835,7 @@ blockquote-temp p {
 
 
 .section-wrapper .main-content-test {
-    padding: 16px;
+    padding: 20px;
 }
 
 .section-wrapper h1 {
