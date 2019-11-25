@@ -873,6 +873,26 @@ blockquote-temp p {
 }
 
 
+
+/*
+@media screen and (max-width: 1024px) {
+    .columnx {
+        flex: 0 1 calc(50%);
+        margin-bottom: 20px;
+    }
+}
+*/
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .columnx .cardz {
+        flex: 0 1 calc(100%);
+        margin-bottom: 20px;
+
+    }
+}
+
+
 .cardz.contact-card{
 /*    background-color: white;*/
 }
