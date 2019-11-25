@@ -1026,6 +1026,13 @@ form .input {
     flex: 1 0 47%;
 }
 
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    form .input {
+        flex: 1 0 100%;
+    }
+}
+
 
 form .input label {}
 
