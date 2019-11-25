@@ -855,7 +855,26 @@ blockquote-temp p {
 /*    z-index: 1000 !important;*/
 }
 
+.columnx.contact-details-email {
+    padding: 0 0;
+    display: flex;
+    width: 100%;
+/*    flex: 1 100%;*/
+    margin-bottom: 20px;
+    
+/*    z-index: 1000 !important;*/
+}
 
+
+.columnx.contact-details-email-2 {
+    padding: 0 10px;
+    display: flex;
+    width: 100%;
+/*    flex: 1 100%;*/
+    margin-bottom: 20px;
+    
+/*    z-index: 1000 !important;*/
+}
 
 
 
@@ -938,6 +957,75 @@ blockquote-temp p {
 
     }
 }
+
+
+
+
+.main-content-block.form{
+    padding-left: 0 !important;
+}
+.main-content-block form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-content-block form input {
+}
+.main-content-block label {
+    display: block
+}
+.main-content-block #fname {
+}
+.main-content-block #lname {
+}
+
+
+
+
+.main-content-block div {
+/*    flex: auto;*/
+    margin: 0 10px;
+}
+
+
+.main-content-block #subject {
+}
+.main-content-block input {
+}
+
+
+form {
+}
+form .input {
+    display: inline-block;
+/*    width: 45%;*/
+    margin: 0 10px;
+    flex: 1 0 47%;
+}
+
+
+form .input label {
+}
+form #fname {
+    width: 100%
+}
+form #lname {
+    width: 100%
+}
+form .message {
+    flex: 1 0 100%;
+}
+form .message label {
+}
+form #subject {
+    width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
