@@ -1048,8 +1048,6 @@ form .message {
     flex: 1 0 100%;
 }
 
-form .message label {}
-
 form #subject {
     width: 100%;
     padding: 12px;
@@ -1062,7 +1060,7 @@ form #subject {
 }
 
 
-form {}
+form .message label {}
 
 form .input {}
 
@@ -1071,8 +1069,6 @@ form .input label {}
 form label p {
     margin-bottom: 0px
 }
-
-form .form-button {}
 
 form .form-button input {
     background-color: #49686F;
@@ -1085,11 +1081,6 @@ form .form-button input:hover {
     color: white;
 }
 
-
-
-.columnx.contact-details-email {}
-
-.columnx .cardz {}
 
 .columnx.contact-details-email .cardz:hover {
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 16px rgba(39, 44, 49, 0.07);
