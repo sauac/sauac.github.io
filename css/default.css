@@ -885,13 +885,21 @@ blockquote-temp p {
 
 /* Responsive columns */
 @media screen and (max-width: 600px) {
-    .columnx .cardz {
+    .columnx.contact-details {
         flex: 0 1 calc(100%);
         margin-bottom: 20px;
 
     }
 }
 
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .columnx.contact-details-2 {
+        flex: 0 1 calc(100%);
+        margin-bottom: 20px;
+
+    }
+}
 
 .cardz.contact-card{
 /*    background-color: white;*/
