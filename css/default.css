@@ -1037,11 +1037,11 @@ form .input {
 form .input label {}
 
 form #fname {
-    width: 100%
+    width: 100%;
 }
 
 form #lname {
-    width: 100%
+    width: 100%;
 }
 
 form .message {
