@@ -839,7 +839,7 @@ blockquote-temp p {
     display: flex;
 /*    width: 0.35;*/
 /*    flex: 1 33;*/
-    flex: 0 1 calc(33%);
+    flex: 0 1 calc(36%);
     margin-bottom: 20px;
     
 /*    z-index: 1000 !important;*/
@@ -930,10 +930,11 @@ blockquote-temp p {
 
 
 
+
 /* Responsive columns */
 @media screen and (max-width: 768px) {
     .contact-card .main-content-block {
-        padding-right: 00px !important;
+/*        padding-right: 0px !important;*/
 
     }
 }
