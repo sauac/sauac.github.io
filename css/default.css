@@ -930,8 +930,13 @@ blockquote-temp p {
 
 
 
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .contact-card .main-content-block {
+        padding-right: 00px !important;
 
-
+    }
+}
 
 
 
