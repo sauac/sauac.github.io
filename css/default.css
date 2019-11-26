@@ -1033,6 +1033,26 @@ blockquote-temp p {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .input-left {
+        flex: 1 0 100%;
+        padding-left: 0;
+    }
+}
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    .input-right {
+        flex: 1 0 100%;
+        padding-left: 0px;
+    padding-right: 0px;
+    }
+}
+
+
+
 .input-right label {
 }
 
@@ -1071,6 +1091,17 @@ form #lname {
 form .message {
     padding: 0 10px;
     flex: 1 0 100%;
+}
+
+
+
+/* Responsive wrapper */
+@media screen and (max-width: 600px) {
+    form .message {
+        flex: 1 0 100%;
+        padding-left: 0px;
+    padding-right: 0px;
+    }
 }
 
 form #subject {
