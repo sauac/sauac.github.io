@@ -1016,6 +1016,31 @@ blockquote-temp p {
 }
 
 
+
+.input-left {
+    flex: 1 0 50%;
+    padding-left: 10px;
+}
+.input-left label {
+}
+
+.input-left #fname {
+}
+
+
+.input-right {
+    flex: 1 0 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.input-right label {
+}
+
+.input-right #lname {
+}
+
+
+
 form label {}
 
 form .input {
@@ -1044,6 +1069,7 @@ form #lname {
 }
 
 form .message {
+    padding: 0 10px;
     flex: 1 0 100%;
 }
 
@@ -1080,6 +1106,10 @@ form .form-button input {
 form .form-button input:hover {
     background-color: #343b3c;
     color: white;
+}
+
+.form-button {
+    padding-left: 10px;
 }
 
 
