@@ -973,9 +973,10 @@ blockquote-temp p {
 
 
 .main-content-block.form {
-    padding-left: 0 !important;
+/*    padding-left: 0 !important;*/
     border: 1px solid #f0f0f0;
     border-radius: 5px;
+    
 }
 
 .main-content-block form {
@@ -1016,7 +1017,7 @@ blockquote-temp p {
 
 
 form {
-    padding: 20px;
+    
 }
 
 form .input {
