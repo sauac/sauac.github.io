@@ -973,10 +973,10 @@ blockquote-temp p {
 
 
 .main-content-block.form {
-/*    padding-left: 0 !important;*/
+    /*    padding-left: 0 !important;*/
     border: 1px solid #f0f0f0;
     border-radius: 5px;
-    
+
 }
 
 .main-content-block form {
@@ -1016,9 +1016,7 @@ blockquote-temp p {
 }
 
 
-form {
-    
-}
+form label {}
 
 form .input {
     display: inline-block;
@@ -1070,6 +1068,8 @@ form .input label {}
 form label p {
     margin-bottom: 0px
 }
+
+
 
 form .form-button input {
     background-color: #49686F;
