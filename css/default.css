@@ -990,13 +990,6 @@ blockquote-temp p {
     display: block
 }
 
-.main-content-block #fname {}
-
-.main-content-block #lname {}
-
-
-
-
 .main-content-block div {
     /*    flex: auto;*/
     /*    margin: 0 10px;*/
@@ -1026,6 +1019,11 @@ blockquote-temp p {
 
 .input-left #fname {}
 
+.input-right label {}
+
+.input-right #lname {}
+
+form label {}
 
 .input-right {
     flex: 1 0 50%;
@@ -1052,21 +1050,21 @@ blockquote-temp p {
 
 form ::-webkit-input-placeholder {
     font-size: 16px;
-    color: red;
+    /*    color: red;*/
 }
 
 form :-ms-input-placeholder {
     font-size: 16px;
-    color: red;
+    /*    color: red;*/
 }
 
 form ::placeholder {
     font-size: 16px;
-    color: red;
+    /*    color: red;*/
 }
 
 form ::-ms-input-placeholder {
-    color: red;
+    /*    color: red;*/
 }
 
 form input[type=text] {
@@ -1077,30 +1075,6 @@ form textarea {
     font-size: 16px;
 }
 
-.input-right label {}
-
-.input-right #lname {}
-
-
-
-form label {}
-
-form .input {
-    display: inline-block;
-    /*    width: 45%;*/
-    /*    margin: 0 10px;*/
-    flex: 1 0 47%;
-}
-
-/* Responsive wrapper */
-@media screen and (max-width: 600px) {
-    form .input {
-        flex: 1 0 100%;
-    }
-}
-
-
-form .input label {}
 
 form #fname {
     width: 100%;
@@ -1114,7 +1088,6 @@ form .message {
     padding: 0 10px;
     flex: 1 0 100%;
 }
-
 
 
 /* Responsive wrapper */
@@ -1140,14 +1113,9 @@ form #subject {
 
 form .message label {}
 
-form .input {}
-
-form .input label {}
-
 form label p {
     margin-bottom: 0px
 }
-
 
 
 form .form-button input {
