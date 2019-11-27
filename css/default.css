@@ -1034,6 +1034,11 @@ blockquote-temp p {
     width: auto;
 }
 
+#map img {
+    max-width: none;
+    max-height: none;
+}
+
 
 
 .main-content-block.form {
