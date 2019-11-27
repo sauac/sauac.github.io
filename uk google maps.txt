@@ -1,0 +1,21 @@
+<script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of UK
+            var uk = {
+                lat: 51.507351,
+                lng: -0.127758
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 4,
+                    center: uk
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uk,
+                map: map
+            });
+        }
+    </script>
