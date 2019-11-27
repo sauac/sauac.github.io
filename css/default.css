@@ -967,7 +967,7 @@ blockquote-temp p {
 }
 
 .share {
-    flex: 0 1 15%;
+    flex: 0 1 16%;
 
 }
 
@@ -976,7 +976,7 @@ blockquote-temp p {
     padding: 5px;
     padding-top: 8px;
     text-align: center;
-    margin-right: 5px;
+/*    margin-right: 5px;*/
     /*
     padding-top: 5px;
     padding-right: 5px;
