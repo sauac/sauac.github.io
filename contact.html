@@ -34,13 +34,13 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgQQuze8efj6EyDanhSsAMPb6
    <script>
 // Initialize and add the map
 function initMap() {
-  // The location of Uluru
-  var uluru = {lat: 51.420905, lng: -1.477530};
+  // The location of UK
+  var uk = {lat: 54.539675, lng: -2.520202};
   // The map, centered at Uluru
   var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
+      document.getElementById('map'), {zoom: 5, center: uk});
   // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
+  var marker = new google.maps.Marker({position: uk, map: map});
 }
 </script>
     
