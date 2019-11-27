@@ -1021,11 +1021,10 @@ blockquote-temp p {
     flex: 1 0 50%;
     padding-left: 10px;
 }
-.input-left label {
-}
 
-.input-left #fname {
-}
+.input-left label {}
+
+.input-left #fname {}
 
 
 .input-right {
@@ -1047,32 +1046,40 @@ blockquote-temp p {
     .input-right {
         flex: 1 0 100%;
         padding-left: 0px;
-    padding-right: 0px;
+        padding-right: 0px;
     }
 }
 
 form ::-webkit-input-placeholder {
     font-size: 16px;
-    
+    color: red;
 }
+
 form :-ms-input-placeholder {
     font-size: 16px;
-    
+    color: red;
 }
+
 form ::placeholder {
     font-size: 16px;
-    
+    color: red;
 }
 
-form ::-ms-input-placeholder { 
-  
+form ::-ms-input-placeholder {
+    color: red;
 }
 
-.input-right label {
+form input[type=text] {
+    font-size: 16px;
 }
 
-.input-right #lname {
+form textarea {
+    font-size: 16px;
 }
+
+.input-right label {}
+
+.input-right #lname {}
 
 
 
@@ -1115,7 +1122,7 @@ form .message {
     form .message {
         flex: 1 0 100%;
         padding-left: 0px;
-    padding-right: 0px;
+        padding-right: 0px;
     }
 }
 
