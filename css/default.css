@@ -953,6 +953,12 @@ blockquote-temp p {
     padding: 25px !important;
 }
 
+.main-content-block {
+}
+.main-content-block.google-map{
+    padding-bottom: 40px !important;
+}
+
 .contact-top .main-content-block p {}
 
 .contact-top .main-content-block p a {}
