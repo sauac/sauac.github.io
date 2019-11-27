@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--    <meta name="viewport" content="width=device-width,initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/default13.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Raleway:400,400i&display=swap" rel="stylesheet">
+    <!--<link href="/css/fontawesome/css/all.css" rel="stylesheet">-->
+    <!--load all styles -->
+    <!--<script defer src="/js/fontawesome/js/all.js"></script>-->
+    <!--load all styles -->
+    <!--
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400i&display=swap" rel="stylesheet">
+-->
+    <script src="https://kit.fontawesome.com/2e63bdd35c.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links
+            $("a").on('click', function(event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    //                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top - 60
+                    }, 800, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        //                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $("#header").load("header.html");
+            //            $("#footer").load("footer.html");
+        });
+    </script>
+
+
+
+    <title>The four Seasons</title>
+</head>
+
+<body>
+    <!--    <div id="header"></div>-->
+
+
+    <div class="navbar">
+        <div class="section-wrapper nav">
+            <div class="margin-adjust">
+                <div class="navcontainer">
+                    <div class="homebutton"><a href="index.html" id="temp-home" style="display: block;"><i class="fas fa-seedling"></i></a></div>
+
+                    <a href="index.html">
+                        <div class="navunit home"><i class="fas fa-seedling"></i>
+                            <div class="site-home">
+                                <h2>The Four seasons</h2>
+
+
+
+                            </div>
+                        </div>
+                    </a>
+
+                    <div class="menu-margin-adjust">
+
+
+                        <div class="navunit"><a href="contact.html">
+                                <p class="menu-rgt-padding">Contact</p>
+                            </a></div>
+
+                        <div class="navunit"><a href="#seasons-link">
+                                <p>Seasons</p>
+                            </a></div>
+
+                        <div class="navunit"><a href="about.html">
+                                <p>About</p>
+                            </a></div>
+
+                        <div class="navunit"><a href="index.html">
+                                <p>Home</p>
+                            </a></div>
+                    </div>
+
+                    <div class="hamburger">
+                        <input type="checkbox" />
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <div class="responsive-menu2">
+                            <div id="menu-section">
+                                <ul id="menu-list">
+                                    <a href="index.html">
+                                        <li>Home</li>
+                                    </a>
+                                    <a href="about.html">
+                                        <li>About</li>
+                                    </a>
+                                    <a href="about.html">
+                                        <li>Seasons</li>
+                                    </a>
+                                    <a href="contact.html">
+                                        <li>Contact</li>
+                                    </a>
+
+                                    <div class="menu-github-section"><a href="https://github.com/" target="_blank" rel="noopener">
+                                            <p class="git-hub-button">
+                                                <span1 class="red-text">via</span1><i class="fab fa-github-square"></i> GitHub
+                                            </p>
+                                        </a></div>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <!--
+                        <ul id="menu">
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="about.html">
+                                <li>About</li>
+                            </a>
+                            <a href="about.html">
+                                <li>Seasons</li>
+                            </a>
+                            <a href="index.html">
+                                <li>Contact</li>
+                            </a>
+
+                            <div class="menu-github-button"><a href="https://github.com/" target="_blank" rel="noopener">
+                                    <p class="git-hub-button">
+                                        <span1 class="red-text">via</span1><i class="fab fa-github-square"></i> GitHub
+                                    </p>
+                                </a></div>
+                        </ul>
+-->
+
+                    </div>
+
+
+
+                    <div class="responsive-menu">
+                        <div id="menu-section">
+                            <ul id="menu-list">
+                                <a href="index.html">
+                                    <li>Home</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>About</li>
+                                </a>
+                                <a href="about.html">
+                                    <li>Seasons</li>
+                                </a>
+                                <a href="contact.html">
+                                    <li>Contact</li>
+                                </a>
+
+                                <div class="menu-github-section"><a href="https://github.com/" target="_blank" rel="noopener">
+                                        <p class="git-hub-button">
+                                            <span1 class="red-text">via</span1><i class="fab fa-github-square"></i> GitHub
+                                        </p>
+                                    </a></div>
+                            </ul>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <!--        <div class="homebutton"><a href="index.html" id="temp-home" style="display: block;"><i class="fas fa-home"></i></a></div>-->
+
+    <!--
+    <div id="herolink" class="hero">
+        <h1 class="main-title">The four seasons</h1>
+        <h2 class="seasons-sub-heading">the year in words.</h2>
+    </div>
+-->
+
+
+    <div id="totoplink" class="section hero">
+        <div class="section-wrapper hero">
+            <h1 class="main-title">Contact Us</h1>
+            <h2 class="hero-sub-heading">the four seasons.</h2>
+        </div>
+    </div>
+
+
+    <div class="section contact-top">
+        <div class="section-wrapper">
+
+
+            <div class="margin-adjust contact-tp">
+
+                <div class="columnx contact-details">
+                    <div class="cardz contact-card">
+
+                        <div class="main-content-block">
+                            <h1>Contact info</h1>
+                            <p><a href="contact.html">Contact Us</a></p>
+
+
+
+                            <p><i class="fas fa-phone"></i>+44 1234567890</p>
+
+
+
+                            <p><i class="fas fa-phone"></i>+44 7734567890</p>
+
+
+
+                            <p><i class="fas fa-envelope"></i><a href="#winterlink">info@4seasons.co.uk</a></p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="columnx contact-details-2">
+                    <div class="cardz contact-card">
+
+                        <div class="main-content-block">
+                            <h1>Google Map</h1>
+                            <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>
+
+                            <span class="summary-text">...global warming we're told!</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--
+                <div class="columnx contact-details-email-2">
+                    <div class="cardz">
+
+                        <div class="main-content-block">
+                            <h1>Google Map</h1>
+                            <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>
+
+                            <span class="summary-text">...global warming we're told!</span>
+                        </div>
+
+                    </div>
+                </div>
+-->
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="section natures-clock">
+        <div class="section-wrapper column">
+
+            <h2 class="intro-title">Send us an email<span class="section-title-divider"></span>
+                <!--                <hr>-->
+            </h2>
+
+            <!--            <hr>-->
+
+
+            <div class="columnx contact-details-email">
+                <div class="cardz">
+
+                    <div class="main-content-block form">
+
+                        <form>
+
+                            <div class="input-left">
+                                <label for="fname">
+                                    <p>First Name</p>
+                                </label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
+
+                            <div class="input-right">
+                                <label for="lname">
+                                    <p>Last Name</p>
+                                </label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            </div>
+
+
+
+                            <div class="message">
+                                <label for="subject">
+                                    <p>Message</p>
+                                </label>
+                                <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+                            </div>
+
+
+
+
+                            <div class="form-button">
+                                <input type="submit" value="Submit">
+                            </div>
+
+                        </form>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="section footer-section">
+        <div class="section-wrapper footermain">
+            <div class="margin-adjust footer">
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">Contact</h2>
+
+
+                    <p><a href="contact.html">Contact Us</a></p>
+
+
+
+                    <p>+44 1234567890</p>
+
+
+
+                    <p>+44 7734567890</p>
+
+
+
+                    <p><a href="#winterlink">info@4seasons.co.uk</a></p>
+
+
+                </div>
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">About</h2>
+
+                    <p><a href="about.html">About Us</a></p>
+
+
+
+                    <p><a href="#summerlink">Our Policies</a></p>
+
+
+
+                    <p><a href="#autumnlink">Our Vision</a></p>
+
+
+
+                    <p><a href="#winterlink">Our Team</a></p>
+
+                </div>
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">Useful Links</h2>
+
+                    <p><a href="#springlink">Climate change</a></p>
+
+
+
+                    <p><a href="#summerlink">Global Warming</a></p>
+
+
+
+                    <p><a href="#autumnlink">The Environment</a></p>
+
+
+
+                    <p><a href="#winterlink">Environment agency's</a></p>
+
+                </div>
+
+
+                <div class="column-footer">
+                    <h2 class="footheading">Seasons</h2>
+
+                    <p><a href="#springlink">spring</a></p>
+
+
+
+                    <p><a href="#summerlink">summer</a></p>
+
+
+
+                    <p><a href="#autumnlink">autumn</a></p>
+
+
+
+                    <p><a href="#winterlink">winter</a></p>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="section-wrapper footerbase">
+
+            <a href="https://github.com/" target="_blank" rel="noopener">
+                <p class="git-hub-button"><span class="red-text">via</span><i class="fab fa-github-square"></i> GitHub</p>
+            </a>
+
+            <p class="copyright-year-date">Copyright <script type="text/javascript" src="js/test.js"></script> sauac designs. All rights reserved.</p>
+
+            <a href="#totoplink" id="to-top" style="display: block;"><i class="fas fa-angle-up"></i></a>
+        </div>
+    </div>
+    <!--<div id="footer"></div>-->
+</body></html>
