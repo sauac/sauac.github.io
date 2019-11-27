@@ -969,7 +969,10 @@ blockquote-temp p {
     }
 }
 
-
+#map {
+    height: 400px;
+    width: auto;
+}
 
 
 .main-content-block.form {

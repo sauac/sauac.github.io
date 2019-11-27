@@ -16,6 +16,34 @@
 -->
     <script src="https://kit.fontawesome.com/2e63bdd35c.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<!--
+    <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+</script>
+-->
+  
+  
+  <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgQQuze8efj6EyDanhSsAMPb6gcntbjZk&callback=initMap">
+</script>
+   
+   
+   
+   
+   <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+</script>
+    
     <script>
         $(document).ready(function() {
             // Add smooth scrolling to all links
@@ -243,7 +271,9 @@
 
                         <div class="main-content-block">
                             <h1>Google Map</h1>
-                            <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>
+<!--                            <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>-->
+                            
+                            <div id="map"></div>
 
                             <span class="summary-text">...global warming we're told!</span>
                         </div>
