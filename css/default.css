@@ -855,6 +855,23 @@ blockquote-temp p {
     /*    z-index: 1000 !important;*/
 }
 
+
+
+.section-title-divider {
+    height: 0.7px;
+    background-color: #cccccc;
+    width: 200px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+
+.section-title-divider.contact {
+    width: 100px;
+}
+
+
 .columnx.contact-details-email {
     padding: 0 0;
     display: flex;
@@ -944,6 +961,43 @@ blockquote-temp p {
     padding-right: 10px;
 }
 
+.share-links {
+    display: flex;
+    margin-top: 20px
+}
+
+.share {
+    flex: 0 1 15%;
+
+}
+
+.share .fab {
+    font-size: 16px;
+    padding: 5px;
+    padding-top: 8px;
+    text-align: center;
+    margin-right: 5px;
+    /*
+    padding-top: 5px;
+    padding-right: 5px;
+*/
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    /*    background-color: rgba(149, 116, 27, 0.62);*/
+    background-color: #49686F;
+    width: 33px;
+    height: 33px;
+    /*    border: solid 1px #717171;*/
+    border: solid 1px rgba(175, 157, 110, 0.62);
+    border-radius: 4px;
+}
+
+.share .fab:hover {
+    background-color: #343b3c;
+    color: white;
+}
+
+
 .contact-top .main-content-block h1 {
     font-style: normal;
     color: #49686F;
@@ -953,9 +1007,9 @@ blockquote-temp p {
     padding: 25px !important;
 }
 
-.main-content-block {
-}
-.main-content-block.google-map{
+.main-content-block {}
+
+.main-content-block.google-map {
     padding-bottom: 40px !important;
 }
 
@@ -1585,3 +1639,4 @@ line-height: initial;
 .normal-text-italic {
     font-style: italic;
 }
+
