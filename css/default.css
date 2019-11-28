@@ -845,6 +845,20 @@ blockquote-temp p {
     /*    z-index: 1000 !important;*/
 }
 
+.columnx.contact-details p {
+    
+}
+
+.main-content-block .postal-address {
+    padding-bottom: 20px;
+}
+
+.main-content-block h1 {
+}
+
+
+
+
 .columnx.contact-details-2 {
     padding: 0 10px;
     display: flex;
@@ -964,10 +978,11 @@ blockquote-temp p {
 .share-links {
     display: flex;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .share {
-    flex: 0 1 14%;
+    flex: 0 1 40px;
 
 }
 
@@ -1030,7 +1045,7 @@ blockquote-temp p {
 }
 
 #map {
-    height: 400px;
+    height: 270px;
     width: auto;
 }
 
