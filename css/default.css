@@ -934,6 +934,28 @@ blockquote-temp p {
 */
 
 /* Responsive columns */
+@media screen and (max-width: 730px) {
+    .columnx.contact-details {
+        flex: 0 1 calc(100%);
+        margin-bottom: 20px;
+
+    }
+}
+
+/* Responsive columns */
+@media screen and (max-width: 730px) {
+    .columnx.contact-details-2 {
+        flex: 0 1 calc(100%);
+        margin-bottom: 20px;
+
+    }
+}
+
+
+
+
+
+/* Responsive columns */
 @media screen and (max-width: 600px) {
     .columnx.contact-details {
         flex: 0 1 calc(100%);
@@ -950,6 +972,9 @@ blockquote-temp p {
 
     }
 }
+
+
+
 
 .cardz.contact-card {
     /*    background-color: white;*/
