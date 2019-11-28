@@ -1220,10 +1220,10 @@ form #subject {
 }
 
 
-form .message label {}
-
 form label p {
-    margin-bottom: 0px
+    margin-bottom: 0px;
+    font-weight: 600;
+    color: #5a5a5a;
 }
 
 
