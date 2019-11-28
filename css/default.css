@@ -1044,6 +1044,8 @@ blockquote-temp p {
 .google-cloud-icon img {
     width: 33px;
     height: 33px;
+    max-width: 100% !important;
+    max-height: 100% !important;
 }
 
 
