@@ -1037,6 +1037,33 @@ blockquote-temp p {
     color: white;
 }
 
+.google-cloud-icon {
+}
+.google-cloud-icon a {
+}
+.google-cloud-icon img {
+    width: 33px;
+    height: 33px;
+}
+
+
+.google-cloud-section {
+    display: flex;
+    align-items: center;
+}
+.google-cloud-section .google-cloud-icon {
+}
+.google-cloud-section a {
+}
+.google-cloud-section img {
+    flex: 1;
+}
+.google-cloud-section p {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+
 
 .contact-top .main-content-block h1 {
     font-style: normal;
