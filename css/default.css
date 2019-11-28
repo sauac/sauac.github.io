@@ -845,16 +845,13 @@ blockquote-temp p {
     /*    z-index: 1000 !important;*/
 }
 
-.columnx.contact-details p {
-    
-}
+.columnx.contact-details p {}
 
 .main-content-block .postal-address {
     padding-bottom: 20px;
 }
 
-.main-content-block h1 {
-}
+.main-content-block h1 {}
 
 
 
@@ -896,19 +893,6 @@ blockquote-temp p {
     /*    z-index: 1000 !important;*/
 }
 
-
-.columnx.contact-details-email-2 {
-    padding: 0 10px;
-    display: flex;
-    width: 100%;
-    /*    flex: 1 100%;*/
-    margin-bottom: 20px;
-
-    /*    z-index: 1000 !important;*/
-}
-
-
-
 .columnx .cardz {
     background-color: white;
     width: 100%;
@@ -922,16 +906,6 @@ blockquote-temp p {
 
 .columnx .top-image-test {}
 
-
-
-/*
-@media screen and (max-width: 1024px) {
-    .columnx {
-        flex: 0 1 calc(50%);
-        margin-bottom: 20px;
-    }
-}
-*/
 
 /* Responsive columns */
 @media screen and (max-width: 730px) {
@@ -1016,7 +990,7 @@ blockquote-temp p {
     padding: 5px;
     padding-top: 8px;
     text-align: center;
-/*    margin-right: 5px;*/
+    /*    margin-right: 5px;*/
     /*
     padding-top: 5px;
     padding-right: 5px;
@@ -1037,10 +1011,10 @@ blockquote-temp p {
     color: white;
 }
 
-.google-cloud-icon {
-}
-.google-cloud-icon a {
-}
+.google-cloud-icon {}
+
+.google-cloud-icon a {}
+
 .google-cloud-icon img {
     width: 33px;
     height: 33px;
@@ -1052,14 +1026,17 @@ blockquote-temp p {
 .google-cloud-section {
     display: flex;
     align-items: center;
+    padding-top: 7px;
 }
-.google-cloud-section .google-cloud-icon {
-}
-.google-cloud-section a {
-}
+
+.google-cloud-section .google-cloud-icon {}
+
+.google-cloud-section a {}
+
 .google-cloud-section img {
     flex: 1;
 }
+
 .google-cloud-section p {
     margin-left: 10px;
     margin-right: 10px;
@@ -1073,13 +1050,23 @@ blockquote-temp p {
 }
 
 .contact-top .main-content-block {
-    padding: 25px !important;
+/*    padding: 25px !important;*/
+    
 }
 
-.main-content-block {}
+
+
+.main-content-block.contact-info,.google-map{
+    padding: 25px !important;
+    padding-bottom: 15px !important;
+}
+
+
+
+
 
 .main-content-block.google-map {
-    padding-bottom: 40px !important;
+    /*    padding-bottom: 40px !important;*/
 }
 
 .contact-top .main-content-block p {}
@@ -1104,7 +1091,7 @@ blockquote-temp p {
 }
 
 #map img {
-/*
+    /*
     max-width: none;
     max-height: none;
 */
