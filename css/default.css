@@ -1050,13 +1050,14 @@ blockquote-temp p {
 }
 
 .contact-top .main-content-block {
-/*    padding: 25px !important;*/
-    
+    /*    padding: 25px !important;*/
+
 }
 
 
 
-.main-content-block.contact-info,.google-map{
+.main-content-block.contact-info,
+.google-map {
     padding: 25px !important;
     padding-bottom: 15px !important;
 }
