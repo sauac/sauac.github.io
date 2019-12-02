@@ -1321,7 +1321,7 @@ form .form-button input:hover {
 /* Responsive columns */
 @media screen and (max-width: 1024px) {
     .columnx {
-        flex: 0 1 calc(33%);
+        flex: 0 1 calc(33.33333333%);
         margin-bottom: 20px;
     }
 }
