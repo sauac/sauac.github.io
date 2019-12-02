@@ -1326,6 +1326,7 @@ form .form-button input:hover {
     }
 }
 
+
 /* Responsive columns */
 @media screen and (max-width: 768px) {
     .columnx {
