@@ -1090,6 +1090,11 @@ blockquote-temp p {
 
 
 
+.section .intro-title.email {
+    
+    color: #696969;
+}
+
 .main-content-block.form {
     /*    padding-left: 0 !important;*/
     border: 1px solid #f0f0f0;
@@ -1232,7 +1237,7 @@ form #subject {
 form label p {
     margin-bottom: 0px;
     font-weight: 600;
-    color: #ceab6a;
+    color: #5d5d5d;
 }
 
 
@@ -1291,6 +1296,7 @@ form .form-button input:hover {
 .section-wrapper .main-content-block {
     padding: 20px;
 }
+
 
 .section-wrapper h1 {
     font-family: 'Raleway', sans-serif;
