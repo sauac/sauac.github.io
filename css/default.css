@@ -1091,7 +1091,7 @@ blockquote-temp p {
 
 
 .section .intro-title.email {
-    
+
     color: #525252;
 }
 
@@ -1173,17 +1173,17 @@ form label {}
 
 form ::-webkit-input-placeholder {
     font-size: 16px;
-        color: #a8a8a8;
+    color: #a8a8a8;
 }
 
 form :-ms-input-placeholder {
     font-size: 16px;
-        color: #a8a8a8;
+    color: #a8a8a8;
 }
 
 form ::placeholder {
     font-size: 16px;
-        color: #a8a8a8;
+    color: #a8a8a8;
 }
 
 form ::-ms-input-placeholder {
