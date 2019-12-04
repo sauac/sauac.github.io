@@ -189,7 +189,23 @@ body p {
     transform: rotate(-45deg) translate(0px, 0px);
 }
 
-
+/* Responsive wrapper */
+/*
+@media screen and (max-width: 768px) {
+    .hamburger input:checked ~ span {
+        position: fixed.
+    }
+    
+    hamburger input:checked ~ span:nth-last-child(3) {
+    position: fixed.
+}
+    
+    .hamburger input:checked ~ span:nth-last-child(2) {
+    position: fixed;
+}
+    
+}
+*/
 
 
 
