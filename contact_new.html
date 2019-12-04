@@ -16,6 +16,45 @@
 -->
     <script src="https://kit.fontawesome.com/2e63bdd35c.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!--
+    <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+</script>
+-->
+
+
+    <!--
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgQQuze8efj6EyDanhSsAMPb6gcntbjZk&callback=initMap">
+    </script>
+-->
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAllq6MedUp-05mg2t1Mhi7ZUrx5tx6ng4&callback=initMap" type="text/javascript"></script>
+
+
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of UK
+            var uk = {
+                lat: 51.507351,
+                lng: -0.127758
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 4,
+                    center: uk
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: uk,
+                map: map
+            });
+        }
+    </script>
+
     <script>
         $(document).ready(function() {
             // Add smooth scrolling to all links
@@ -41,7 +80,6 @@
                 } // End if
             });
         });
-
     </script>
 
     <script>
@@ -49,7 +87,6 @@
             $("#header").load("header.html");
             //            $("#footer").load("footer.html");
         });
-
     </script>
 
 
@@ -129,7 +166,28 @@
                             </div>
 
                         </div>
+                        <!--
+                        <ul id="menu">
+                            <a href="index.html">
+                                <li>Home</li>
+                            </a>
+                            <a href="about.html">
+                                <li>About</li>
+                            </a>
+                            <a href="about.html">
+                                <li>Seasons</li>
+                            </a>
+                            <a href="index.html">
+                                <li>Contact</li>
+                            </a>
 
+                            <div class="menu-github-button"><a href="https://github.com/" target="_blank" rel="noopener">
+                                    <p class="git-hub-button">
+                                        <span1 class="red-text">via</span1><i class="fab fa-github-square"></i> GitHub
+                                    </p>
+                                </a></div>
+                        </ul>
+-->
 
                     </div>
 
@@ -171,216 +229,158 @@
 
 
 
+    <!--        <div class="homebutton"><a href="index.html" id="temp-home" style="display: block;"><i class="fas fa-home"></i></a></div>-->
+
+    <!--
+    <div id="herolink" class="hero">
+        <h1 class="main-title">The four seasons</h1>
+        <h2 class="seasons-sub-heading">the year in words.</h2>
+    </div>
+-->
+
 
     <div id="totoplink" class="section hero">
         <div class="section-wrapper hero">
-            <div class="main-title-block">
-                <h1 class="main-title">The four seasons</h1>
-                <h2 class="hero-sub-heading">the year in words.</h2>
+            <h1 class="main-title">Contact Us</h1>
+            <h2 class="hero-sub-heading">the four seasons.</h2>
+        </div>
+    </div>
+
+
+    <div class="section contact-top">
+        <div class="section-wrapper">
+
+
+            <div class="margin-adjust contact-tp">
+
+                <div class="columnx contact-details">
+                    <div class="cardz contact-card">
+
+                        <div class="main-content-block contact-info">
+                            <h1>Contact info<span class="section-title-divider contact"></span></h1>
+
+                            <p class="postal-address">
+                                The Four Seasons <br>
+                                1234 Seasons Galore, <br>
+                                Warm Lane <br>
+                                SE1 5AU
+                            </p>
+                            <!--                            <p><a href="contact.html">Contact Us</a></p>-->
+
+
+
+                            <p><i class="fas fa-phone"></i>+44 1234567890</p>
+
+
+
+                            <p><i class="fas fa-phone"></i>+44 7734567890</p>
+
+
+
+                            <p><i class="fas fa-envelope"></i><a href="#winterlink">info@4seasons.co.uk</a></p>
+
+
+                            <div class="share-links">
+                                <div class="share"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+                                <div class="share"><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></div>
+                                <div class="share"><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="columnx contact-details-2">
+                    <div class="cardz contact-card">
+
+                        <div class="main-content-block google-map">
+                            <h1>Google Map</h1>
+                            <!--                            <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>-->
+
+                            <div id="map"></div>
+
+                            <div class="google-cloud-section">
+                                <div class="google-cloud-icon">
+                                    <a href="https://cloud.google.com/maps-platform/maps/?utm_source=google&utm_medium=cpc&utm_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps_contactsal_saf&utm_content=text-ad-none-none-DEV_c-CRE_313692529385-ADGP_Hybrid+%7C+AW+SEM+%7C+BKWS+~+Google+Maps+API-KWID_43700038962990722-aud-669510846654:kwd-335425467-userloc_9044974&utm_term=KW_google%20maps%20api-ST_google+maps+api&gclid=EAIaIQobChMI_szU3fuN5gIVQbTtCh1FNwQGEAAYASABEgLyH_D_BwE" target="_blank"><img src="images/google-cloud-icon.png" alt="google-cloud-icon"></a>
+                                </div>
+                                <p>Powered by Google Cloud</p>
+                            </div>
+
+                            <!--                            <span class="summary-text">...global warming we're told!</span>-->
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
+
         </div>
     </div>
 
 
 
 
-    <!--
-    <div id="natures-clock-link" class="section natures-clock">
+    <div class="section natures-clock">
         <div class="section-wrapper column">
-            <h2 class="intro-title">Natures clock<span class="section-title-divider"></span>
-            
+
+            <h2 class="intro-title email">Send us an email<span class="section-title-divider"></span>
+                <!--                <hr>-->
             </h2>
 
-
-            <p>The year begins in January, middle of the winter season, which carries on into February. Milder temperatures in March mark the begining of spring, and continue through April into May. <br><br>Summer is anounced in the month of June, with a notable increase in temperature, leading to pleasent outdoor conditions through July into August. <br><br>In September however, temperatures begin to fall, anouncing the start of Autumn. As the warmth slowley disappears through the months of October and November, we are reminded that winter is approaching and its time to put on our warm coats, in time for it's arrivel in the month of December!
-            </p>
-
-        </div>
-    </div>
--->
+            <!--            <hr>-->
 
 
+            <div class="columnx contact-details-email">
+                <div class="cardz">
+
+                    <div class="main-content-block form">
+
+                        <form>
+
+                            <div class="input-left">
+                                <label for="fname">
+                                    <p>First Name</p>
+                                </label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name">
+                            </div>
+
+                            <div class="input-right">
+                                <label for="lname">
+                                    <p>Last Name</p>
+                                </label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name">
+                            </div>
+
+
+
+                            <div class="message">
+                                <label for="subject">
+                                    <p>Message</p>
+                                </label>
+                                <textarea id="subject" name="subject" placeholder="Write your message.." style="height:200px"></textarea>
+                            </div>
 
 
 
 
-    <!--<div id="seasons-link" class="section seasons">
-        <div class="section-wrapper">
-            <h2 class="seasons-title">Seasons<span class="section-title-divider"></span>
-                            
-            </h2>
+                            <div class="form-button">
+                                <input type="submit" value="Submit">
+                            </div>
 
-            <div class="margin-adjust">
+                        </form>
 
-                <div id="springlink" class="columnx">
-                    <div class="cardz">
-                        <div class="top-image-test"><img src="images/spring-bench.jpg" alt="spring-bench">
-                        </div>
-                        <div class="main-content-block">
-                            <h1>Hopeful <span class="title-highlight-spring">spring</span></h1>
-                            <p>New colour and the scent of vegitation, of grass and of blossom fills the air. It's warmer, the outside more inviting. Everthing alive and new!</p>
-
-                            <span class="summary-text">...this is spring!</span>
-
-                        </div>
-
-                    </div>
-                </div>
-
-                <div id="summerlink" class="columnx">
-                    <div class="cardz">
-                        <div class="top-image-test"><img src="images/summer-trees-bench.jpg" alt="summer-trees-bench">
-                        </div>
-                        <div class="main-content-block">
-                            <h1>New <span class="title-highlight-summer">summer</span></h1>
-                            <p>The arroma of spring has gone. Dawn breaks early. The days are longer and brighter, the evenings slower. The air a constant blanket; More heatwaves.</p>
-
-                            <span class="summary-text">...global warming we're told!</span>
-                        </div>
 
                     </div>
-                </div>
 
-                <div id="autumnlink" class="columnx">
-                    <div class="cardz">
-                        <div class="top-image-test"><img src="images/bench560435.jpg" alt="autumn bench">
-                        </div>
-                        <div class="main-content-block">
-                            <h1>Peaceful <span class="title-highlight-autumn">autumn</span></h1>
-                            <p>It's that time of year when leaves are red and brown and gold and the trees are more bare and the youthful vibrant attire of summer is fading.</p>
-
-                            <span class="summary-text">...Yet there is a beauty in the bareness!</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div id="winterlink" class="columnx">
-                    <div class="cardz">
-                        <div class="top-image-test"><img src="images/winter-bench.jpg" alt="winter-bench">
-                        </div>
-                        <div class="main-content-block">
-                            <h1>Silent <span class="title-highlight-winter">winter</span></h1>
-                            <p>The landscape, White and stark and barren or so a novel might say! These days the 'warm indoors' is less often a necessary refuge to the bitting cold.</p>
-                        
-
-                            <span class="summary-text">...again global warming!</span>
-                        </div>
-
-                    </div>
                 </div>
             </div>
 
         </div>
-    </div>-->
-
-
-
-
-    <!--
-    <div class="section sbuttons">
-        <div class="section-wrapper">
-
-            <div class="columnx">
-                <div class="springx flx">spring</div>
-            </div>
-
-            <div class="columnx">
-                <div class="summerx flx">summer</div>
-            </div>
-
-            <div class="columnx">
-                <div class="autmnx flx">autumn</div>
-            </div>
-
-            <div class="columnx">
-                <div class="winterx flx">winter</div>
-            </div>
-
-        </div>
     </div>
--->
 
 
-
-    <!--
-    <div class="section sbuttons">
-        <div class="section-wrapper">
-
-            <a class="springz flz" href="#springlink">
-                <p>spring</p>
-            </a>
-
-            <a class="summerz flz" href="#summerlink">
-                <p>summer</p>
-            </a>
-
-
-            <a class="autmnz flz" href="#autumnlink">
-                <p>autumn</p>
-            </a>
-
-            <a class="winterz flz" href="#winterlink">
-                <p>winter</p>
-            </a>
-
-        </div>
-    </div>
--->
-
-
-
-
-
-    <!--
-    <div id="parentx">
-        <div class="springx">spring</div>
-        <div class="summerx">summer</div>
-        <div class="autmnx">autumn</div>
-        <div class="winterx">winter</div>
-    </div>
--->
-
-
-
-    <!--
-    <div class="footer-row">
-        <a href="https://github.com/" target="_blank" rel="noopener">
-            <p class="git-hub"><span class="highlight-text">via</span><i class="fab fa-github-square"></i> GitHub</p>
-        </a>
-        
-        <a href="#herolink" id="to-top" style="display: block;"><i class="fas fa-angle-up"></i></a>
-
-        <p class="copyright-date">Copyright <script type="text/javascript" src="js/test.js"></script> sauac designs. All rights reserved.</p>
-    </div>
--->
-
-
-    <!--
-        <div class="section footer-section2">
-            <div class="section-wrapper footermain2">
-
-                <a class="springz flz" href="#springlink">
-                    <p>spring</p>
-                </a>
-
-                <a class="summerz flz" href="#summerlink">
-                    <p>summer</p>
-                </a>
-
-
-                <a class="autmnz flz" href="#autumnlink">
-                    <p>autumn</p>
-                </a>
-
-                <a class="winterz flz" href="#winterlink">
-                    <p>winter</p>
-                </a>
-
-
-            </div>
-        </div>
--->
 
 
 
@@ -488,6 +488,4 @@
         </div>
     </div>
     <!--<div id="footer"></div>-->
-</body>
-
-</html>
+</body></html>
