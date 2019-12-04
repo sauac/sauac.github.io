@@ -193,31 +193,7 @@ body p {
 
 
 
-.hamburger #menu {
-    position: absolute;
-    width: 300px;
-    height: 100vh;
-    margin: -50px 0 10px 60px;
-    padding: 50px;
-    padding-top: 70px;
-    font-family: 'Raleway', sans-serif;
-    background: #ffffff;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    /* to stop flickering of text in safari */
-
-    transform-origin: 0% 0%;
-    transform: translate(none, 0);
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-    visibility: collapse;
-    display: none;
-
-}
-
-.hamburger .responsive-menu2 {
+.hamburger .responsive-menu {
     position: fixed;
     width: 300px;
     height: 100vh;
@@ -246,7 +222,7 @@ body p {
 
 /* Responsive wrapper */
 @media screen and (max-width: 768px) {
-    .hamburger .responsive-menu2 {
+    .hamburger .responsive-menu {
 
         display: block;
         visibility: visible;
@@ -256,9 +232,9 @@ body p {
 
 
 
-.responsive-menu2 {}
+.responsive-menu {}
 
-.responsive-menu2 #menu-section {
+.responsive-menu #menu-section {
     position: relative !important;
     margin: 0px 0 0px 0px !important;
     padding: 50px;
@@ -267,44 +243,44 @@ body p {
     border-top: 1px solid rgba(190, 190, 190, 0.25);
 }
 
-.responsive-menu2 #menu-section a {
+.responsive-menu #menu-section a {
     text-decoration: none;
 }
 
-.responsive-menu2 #menu-list {
+.responsive-menu #menu-list {
     margin: 0;
     padding: 0
 }
 
-.responsive-menu2 #menu-list a {}
+.responsive-menu #menu-list a {}
 
-.responsive-menu2 li {
+.responsive-menu li {
     color: black !important;
     padding: 10px 0 25px 0 !important;
     font-size: 20px !important;
     list-style-type: none;
 }
 
-.responsive-menu2 li:hover {
+.responsive-menu li:hover {
     color: #df9d42 !important;
 }
 
-.responsive-menu2 .menu-github-section {}
+.responsive-menu .menu-github-section {}
 
-.responsive-menu2 .menu-github-section a {}
+.responsive-menu .menu-github-section a {}
 
-.responsive-menu2 .git-hub-button {}
+.responsive-menu .git-hub-button {}
 
-.responsive-menu2 .git-hub-button:hover {
+.responsive-menu .git-hub-button:hover {
     background-color: #dfdded;
     transition: background-color 0.3s ease;
 }
 
-.responsive-menu2 .red-text {}
+.responsive-menu .red-text {}
 
-.responsive-menu2 .fab {}
+.responsive-menu .fab {}
 
-.responsive-menu2 .fab .hamburger a {
+.responsive-menu .fab .hamburger a {
     text-decoration: none;
 }
 
@@ -339,128 +315,11 @@ body p {
     color: #ff5800;
 }
 
-.hamburger input:checked ~ .responsive-menu2 {
+.hamburger input:checked ~ .responsive-menu {
     /*    transform: none;*/
     transform: translate(-100%, 0);
 }
 
-
-
-
-
-
-
-.responsive-menu {
-    position: relative;
-    width: 300px;
-    height: 100vh;
-    /*
-    margin: 0px 0 10px 60px;
-    padding: 50px;
-    padding-top: 70px;
-*/
-    font-family: 'Raleway', sans-serif;
-    background: #ffffff;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-
-    /*
-    transform-origin: 0% 0%;
-    transform: translate(none, 0);
-*/
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-
-
-
-    visibility: collapse;
-    display: none;
-
-
-}
-
-
-
-
-
-/*
-.responsive-menu {
-    position: relative;
-    width: 300px;
-    height: 100vh;
-    font-family: 'Raleway', sans-serif;
-    background: #ffffff;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-
-}
-*/
-
-
-.responsive-menu #menu-section {
-    position: relative !important;
-    margin: 0px 0 0px 0px;
-    padding: 50px;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    border-top: 1px solid rgba(190, 190, 190, 0.25);
-    /*
-    width: 300px;
-    height: 100vh;
-    margin: 0px 0 10px 60px;
-    padding: 50px;
-    padding-top: 70px;
-    font-family: 'Raleway', sans-serif;
-    background: #ffffff;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    
-    transform-origin: 0% 0%;
-    transform: translate(none, 0);
-
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-*/
-    /*
-    visibility: collapse;
-    display: none;
-*/
-}
-
-.responsive-menu #menu-section a {
-    text-decoration: none;
-}
-
-.responsive-menu li {
-    color: black;
-    padding: 10px 0;
-    font-size: 22px;
-    list-style-type: none;
-}
-
-/*
-.responsive-menu .section-wrapper {
-    margin-top: 30px;
-    padding-top: 30px;
-    
-}
-*/
-
-.responsive-menu .git-hub-button {
-    font-size: 14px;
-    padding: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #000;
-    background-color: #fff;
-    border-radius: 3px;
-    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.4);
-}
 
 .menu-github-section {
     display: flex;
@@ -473,23 +332,6 @@ body p {
     border-top: 1px solid rgba(190, 190, 190, 0.25);
 
 }
-
-.responsive-menu .git-hub-button:hover {
-    background-color: #dfdded;
-    transition: background-color 0.3s ease;
-}
-
-.responsive-menu .fab {}
-
-
-
-.responsive-menu #menu-list {
-    margin: 0;
-    padding: 0
-}
-
-.responsive-menu #menu-list a {}
-
 
 
 .navunit.home {
