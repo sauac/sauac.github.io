@@ -239,7 +239,6 @@ body p {
 /* Responsive wrapper */
 @media screen and (max-width: 768px) {
     .hamburger .responsive-menu {
-
         display: block;
         visibility: visible;
     }
@@ -251,7 +250,7 @@ body p {
 .responsive-menu {}
 
 .responsive-menu #menu-section {
-    position: relative !important;
+/*    position: relative !important;*/
     margin: 0px 0 0px 0px !important;
     padding: 50px;
     padding-top: 40px;
