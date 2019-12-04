@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    background-color: #efefef;
+    /*    background-color: #efefef;*/
+    background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
     margin: 0;
     -webkit-text-size-adjust: 100%;
     /*padding: 30px;*/
@@ -23,7 +24,7 @@ body p {
 
 .navbar {
     top: 0;
-    position: fixed;
+    /*    position: fixed;*/
     height: 60px;
     width: 100%;
     z-index: 1000;
@@ -647,8 +648,8 @@ a .navunit:hover {
 
 
 .main-title-block {
-    position: fixed;
-    margin-top: 160px;
+    /*    position: fixed;*/
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
 }
