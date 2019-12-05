@@ -24,7 +24,7 @@ body p {
 
 .navbar {
     top: 0;
-    /*    position: fixed;*/
+    position: fixed;
     height: 60px;
     width: 100%;
     z-index: 1000;
@@ -250,7 +250,7 @@ body p {
 .responsive-menu {}
 
 .responsive-menu #menu-section {
-/*    position: relative !important;*/
+    /*    position: relative !important;*/
     margin: 0px 0 0px 0px !important;
     padding: 50px;
     padding-top: 40px;
