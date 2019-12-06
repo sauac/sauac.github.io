@@ -42,6 +42,33 @@
             });
         });
     </script>
+    
+    
+    
+    <script type="text/javascript">
+    var  monk = document.getElementById('topy');
+
+    window.onscroll = function() {
+
+        if (window.pageYOffset > 200) {
+
+            //      		nav.style.background = "#18212a";
+            //      		nav.style.boxShadow = "0 0 20px 0 rgba(0, 0, 0, 0.63)";
+            //            nav.style.padding = "50px";
+            //            box.style.background = "red";
+            monk.style.visibility = "visible";
+        } else {
+            //      		nav.style.background = "transparent";
+            //      		nav.style.boxShadow = "none";
+            //            nav.style.padding = "20px";
+            //            box.style.background = "blue";
+            monk.style.visibility = "hidden";
+        }
+    }
+
+</script>
+    
+    
 
     <script>
         $(function() {
@@ -254,7 +281,7 @@
 
             <p class="copyright-year-date">Copyright <script type="text/javascript" src="js/test.js"></script> sauac designs. All rights reserved.</p>
 
-            <a href="#totoplink" id="to-top" style="display: block;"><i class="fas fa-angle-up"></i></a>
+            <a href="#totoplink" id="topy" style="display: block;"><i class="fas fa-angle-up"></i></a>
         </div>
     </div>
     <!--<div id="footer"></div>-->

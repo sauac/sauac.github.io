@@ -1419,7 +1419,7 @@ p {
     line-height: initial;
 }
 
-line-height: initial;
+
 
 .margin-adjust.footer {
     margin-left: -10px;
@@ -1556,7 +1556,7 @@ line-height: initial;
 }
 
 
-#to-top {
+#topy {
     background-color: rgba(0, 0, 0, 0.2);
     position: fixed;
     bottom: 15px;
@@ -1565,9 +1565,10 @@ line-height: initial;
     height: 42px;
     text-align: center;
     z-index: 1003;
+/*    visibility: hidden;*/
 }
 
-#to-top i {
+#topy i {
     position: absolute;
     top: 12px;
     left: 14px;

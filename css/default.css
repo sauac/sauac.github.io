@@ -625,8 +625,15 @@ a .navunit:hover {
 }
 
 .section.hero {
+/*
     padding-bottom: 60px;
-    background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
+    background-image: url('bench560435.jpg'), url('summer-trees-bench.jpg');
+    background-size: contain;
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-color: #8e8e8e;
+*/
+        background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
 }
 
 .section-wrapper.hero {
