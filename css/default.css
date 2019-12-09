@@ -625,7 +625,7 @@ a .navunit:hover {
 }
 
 .section.hero {
-/*
+    /*
     padding-bottom: 60px;
     background-image: url('bench560435.jpg'), url('summer-trees-bench.jpg');
     background-size: contain;
@@ -633,7 +633,7 @@ a .navunit:hover {
     background-repeat: no-repeat;
     background-color: #8e8e8e;
 */
-        background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
+    background: linear-gradient(90deg, rgba(187, 184, 129, 1) 0%, rgba(189, 175, 107, 1) 50%, rgba(191, 143, 84, 1) 100%);
 }
 
 .section-wrapper.hero {
@@ -1137,7 +1137,7 @@ blockquote-temp p {
     margin-top: 6px;
     margin-bottom: 26px;
     transition: border 200ms ease;
-    webkit-transition: border 200ms;
+    -webkit-transition: border 200ms;
 }
 
 .main-content-block input:hover {
@@ -1245,12 +1245,12 @@ form #subject {
     margin-bottom: 26px;
     resize: vertical;
     transition: border 200ms ease;
-    webkit-transition: border 200ms;
+    -webkit-transition: border 200ms;
 }
 
 form #subject:hover {
     border: 1px solid #9f9f9f;
-    
+
 }
 
 form label p {
