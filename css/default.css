@@ -1136,6 +1136,12 @@ blockquote-temp p {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 26px;
+    transition: border 200ms ease;
+    webkit-transition: border 200ms;
+}
+
+.main-content-block input:hover {
+    border: 1px solid #9f9f9f;
 }
 
 
@@ -1238,8 +1244,14 @@ form #subject {
     margin-top: 6px;
     margin-bottom: 26px;
     resize: vertical;
+    transition: border 200ms ease;
+    webkit-transition: border 200ms;
 }
 
+form #subject:hover {
+    border: 1px solid #9f9f9f;
+    
+}
 
 form label p {
     margin-bottom: 0px;
