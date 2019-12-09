@@ -28,7 +28,7 @@ body p {
   z-index: 1000;
   background-color: rgb(255, 255, 255);
   margin-bottom: 0;
-  display: inline;
+  display: inline-block;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -1368,7 +1368,6 @@ p {
   line-height: initial;
 }
 
-line-height: initial;
 
 .margin-adjust.footer {
   margin-left: -10px;
