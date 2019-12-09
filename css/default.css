@@ -1207,8 +1207,29 @@ form input[type=text] {
     font-size: 16px;
 }
 
+form input:focus {
+    outline: 0;
+    /*    border-color: #4f65be;*/
+}
+
+input#lname:focus {
+    border-color: #4f65be;
+}
+
+input#fname:focus {
+    border-color: #4f65be;
+}
+
 form textarea {
     font-size: 16px;
+}
+
+form #subject:focus {
+    outline: 0;
+}
+
+form textarea:focus {
+    border-color: #4f65be !important;
 }
 
 
