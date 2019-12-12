@@ -736,7 +736,8 @@ blockquote-temp p {
   display: flex;
 }
 
-.columnx p, h1 {
+.columnx p,
+h1 {
   color: black;
 }
 
@@ -795,6 +796,20 @@ blockquote-temp p {
 .columnx .cardz {
   background-color: white;
   width: 100%;
+}
+
+/* .columnx .cardz:hover {
+  filter: brightness(0.95);
+} */
+
+.columnx .cardz > .top-image-test {
+  filter: brightness(1);
+  transition: all 400ms ease;
+}
+
+.columnx .cardz:hover > .top-image-test {
+  filter: brightness(0.6);
+  transition: all 200ms ease;
 }
 
 .columnx .cardz p a {
