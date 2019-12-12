@@ -731,6 +731,15 @@ blockquote-temp p {
   margin-bottom: 20px;
 }
 
+.columnx a {
+  text-decoration: none;
+  display: flex;
+}
+
+.columnx p, h1 {
+  color: black;
+}
+
 .columnx p {
   line-height: 1.4;
 }
