@@ -566,7 +566,7 @@ a .navunit:hover {
     padding-left: 0;
     padding-right: 0;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -617,13 +617,7 @@ a .navunit:hover {
 }
 
 
-.christmas-image img {}
 
-.christmas-image p {
-    font-family: 'Dancing Script', cursive;
-    font-size: 24px;
-    margin-top: 0;
-}
 
 .section.about {
     padding-top: 100px;
