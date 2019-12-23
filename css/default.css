@@ -582,7 +582,7 @@ a .navunit:hover {
 /* Responsive  */
 @media screen and (max-width: 600px) {
     .section .christmas-image {
-        height: 63px;
+        height: 53px;
     }
 }
 
