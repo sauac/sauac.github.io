@@ -594,7 +594,7 @@ a .navunit:hover {
 /* Responsive  */
 @media screen and (max-width: 600px) {
     .section .christmas-image.center {
-        height: 53px;
+        height: 73px;
         left: -10px;
     }
 }
@@ -602,7 +602,7 @@ a .navunit:hover {
 
 .section-wrapper.hero p {
     font-family: 'Dancing Script', cursive;
-    font-size: 24px;
+    font-size: 44px;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -612,7 +612,7 @@ a .navunit:hover {
 /* Responsive  */
 @media screen and (max-width: 600px) {
     .section .christmas-image {
-        height: 53px;
+        height: 73px;
     }
 }
 
