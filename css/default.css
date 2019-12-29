@@ -1203,7 +1203,7 @@ form #subject:hover {
 form label p {
     margin-bottom: 0px;
     font-weight: 600;
-    color: #525252;
+    color: #525252 !important;
 }
 
 form .form-button input {
