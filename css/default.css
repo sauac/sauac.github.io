@@ -643,6 +643,36 @@ a .navunit:hover {
             rgba(191, 143, 84, 1) 100%);
 }
 
+
+
+.section.hero.blog {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/images/spring-bench.jpg');
+    background-repeat: no-repeat;
+}
+
+
+
+.section.hero.blog img {
+    filter: brightness(0.5)
+}
+
+
+
+
+.section .section-wrapper.section .main-title {}
+
+.section .hero-sub-heading {
+    color: white;
+}
+
+
+
+
+
 .section.hero {
     /*
     padding-bottom: 60px;
