@@ -652,6 +652,8 @@ a .navunit:hover {
     background-size: cover;
     background-image: url('/images/spring-bench.jpg');
     background-repeat: no-repeat;
+    background-color: #575757;
+    background-blend-mode: overlay;
 }
 
 
