@@ -813,8 +813,57 @@ blockquote-temp p {
 }
 
 .section-wrapper.column {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    /*    flex-direction: column;*/
 }
+
+.left {
+    flex: 2;
+    margin-right: 30px;
+}
+
+.left .intro-title {}
+
+.left .section-title-divider {}
+
+.left p {}
+
+.left br {}
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .left {
+        flex: 0 1 calc(100%);
+    }
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 768px) {
+    .right {
+        flex: 0 1 calc(100%);
+    }
+}
+
+
+
+
+.right {
+    /*    margin-top: -160px;*/
+    padding: 20px;
+    flex: 1;
+    background-color: #e2e2e2;
+}
+
+.right p {}
+
+.right br {}
+
+
+
+
+
 
 .section .intro-title {
     font-size: 32px;
