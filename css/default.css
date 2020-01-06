@@ -882,18 +882,38 @@ table {
     width: 100%;
     /*    text-align: left;*/
     /*    border-top: 4px solid #fff;*/
-/*    table-layout: fixed;*/
-
+    /*    table-layout: fixed;*/
+/*
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
+    0 3px 16px rgba(39, 44, 49, 0.07);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
+    0 3px 16px rgba(39, 44, 49, 0.07);
+*/
 }
 
 table tbody {}
 
 table tr {}
 
+table th {
+    background-color: #49686F;
+}
+
+table .table-top-row th {
+    border-bottom: 2px solid #ffffff;
+    background-color: #92bcb9;
+    color: #2a2a2a;
+}
+
 table td {
     background-color: #e2e2e2;
     color: #000000;
     width: 50%;
+    /*    border-right: 1px solid #ed0000 !important;*/
+}
+
+td {
+    border-left-style: hidden !important;
 }
 
 table td:nth-of-type(2) {
@@ -914,7 +934,7 @@ table,
 tr,
 th,
 td {
-/*    table-layout: fixed;*/
+    /*    table-layout: fixed;*/
     border: 1px solid #ffffff;
     border-collapse: collapse;
     padding: 15px;
@@ -924,19 +944,20 @@ td {
 }
 
 table .table-season {
-    background-color: #ffffff;
-/*
+    background-color: #49686F;
+    /*
     border-top: 1px solid #f4f4f4;
     border-left: 1px solid #f4f4f4;
 */
     width: 100%;
-    
-    
+
+
 }
 
 .table-season-title {
-    color: #ceab6a;
-    /*    font-size: 28px;*/
+    margin: 7px 0;
+    color: #ffffff;
+    font-size: 32px;
     font-style: normal;
 }
 
