@@ -895,13 +895,23 @@ table tbody {}
 
 table tr {}
 
+table tr:nth-of-type(3) {
+    border-bottom: 2px solid #ffffff;
+}
+
+/*
+table th {
+    background-color: #49686F;
+}
+*/
+
 table th {
     background-color: #49686F;
 }
 
 table .table-top-row th {
     border-bottom: 2px solid #ffffff;
-    background-color: #d9d0c4;
+    background-color: #bdbbb7;
     color: #2a2a2a;
 }
 
