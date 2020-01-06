@@ -818,47 +818,54 @@ blockquote-temp p {
     /*    flex-direction: column;*/
 }
 
-.left {
+.blog-content.left {
     flex: 2;
     margin-right: 30px;
 }
 
-.left .intro-title {}
+/*
+.left {
+    flex: 2;
+    margin-right: 30px;
+}
+*/
 
-.left .section-title-divider {}
+.blog-content.left .intro-title {}
 
-.left p {}
+.blog-content.left .section-title-divider {}
 
-.left br {}
+.blog-content.left p {}
+
 
 /* Responsive columns */
 @media screen and (max-width: 730px) {
-    .left {
+    .blog-content.left {
         flex: 0 1 calc(100%);
     }
 }
 
 
-/* Responsive columns */
-@media screen and (max-width: 730px) {
-    .right {
-        flex: 0 1 calc(100%);
-    }
-}
 
-
-
-
-.right {
+.sidebar.blog {
     /*    margin-top: -160px;*/
-    padding: 20px;
+    /*    padding: 20px;*/
     flex: 1;
     background-color: #f4f4f4;
 }
 
-.right p {}
+/* Responsive columns */
+@media screen and (max-width: 730px) {
+    .sidebar.blog {
+        flex: 0 1 calc(100%);
+    }
+}
 
-.right br {}
+.sidebar-info-block {
+    padding: 20px;
+}
+
+
+.sidebar.blog p {}
 
 .sidebar-sub-heding {
     font-size: 20px;
@@ -868,6 +875,49 @@ blockquote-temp p {
 
 
 
+table {
+    font-family: "Raleway", sans-serif;
+    width: 100%;
+    /*    text-align: left;*/
+
+}
+
+table tbody {}
+
+table tr {}
+
+table tr th {
+    /*    padding: 15px;*/
+}
+
+table,
+th {
+    background-color: #989898;
+}
+
+table,
+tr,
+th,
+td {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    padding: 15px;
+    padding-left: 5px;
+    text-align: left;
+    color: #ffffff;
+}
+
+table .table-season {
+    background-color: #f4f4f4;
+    border-top: 1px solid #f4f4f4;
+    border-left: 1px solid #f4f4f4;
+}
+
+.table-season-title {
+    color: #ceab6a;
+    /*    font-size: 28px;*/
+    font-style: normal;
+}
 
 
 
