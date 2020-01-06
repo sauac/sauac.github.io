@@ -886,6 +886,11 @@ table tbody {}
 
 table tr {}
 
+table td {
+    background-color: #e2e2e2;
+    color: #000000;
+}
+
 table tr th {
     /*    padding: 15px;*/
 }
