@@ -883,7 +883,7 @@ table {
     /*    text-align: left;*/
     /*    border-top: 4px solid #fff;*/
     /*    table-layout: fixed;*/
-/*
+    /*
     -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
     0 3px 16px rgba(39, 44, 49, 0.07);
     box-shadow: 0 0 1px rgba(39, 44, 49, 0.1),
@@ -901,8 +901,16 @@ table th {
 
 table .table-top-row th {
     border-bottom: 2px solid #ffffff;
-    background-color: #92bcb9;
+    background-color: #d9d0c4;
     color: #2a2a2a;
+}
+
+table .table-top-row th:nth-of-type(1) {
+/*
+    font-style: italic;
+    font-size: 20px;
+    text-align: center
+*/
 }
 
 table td {
