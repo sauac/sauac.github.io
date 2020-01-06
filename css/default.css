@@ -906,12 +906,13 @@ table th {
 */
 
 table th {
-    background-color: #49686F;
+    background-color: #d4d7d8;
+    color: #2a2a2a;
 }
 
 table .table-top-row th {
     border-bottom: 2px solid #ffffff;
-    background-color: #bdbbb7;
+    background-color: #d4d7d8;
     color: #2a2a2a;
 }
 
@@ -924,7 +925,7 @@ table .table-top-row th:nth-of-type(1) {
 }
 
 table td {
-    background-color: #e2e2e2;
+    background-color: #dde8eb;
     color: #000000;
     width: 50%;
     height: 70px;
@@ -932,12 +933,16 @@ table td {
 }
 
 td {
-    border-left-style: hidden !important;
+    /*    border-left-style: hidden !important;*/
 }
 
 table td:nth-of-type(2) {
-    background-color: #c4c4c4;
+    background-color: #c9d6d9;
     color: #000000;
+}
+
+table td:nth-of-type(1) {
+    /*    border-right: 2px solid #ffffff !important;*/
 }
 
 table tr th {
