@@ -876,9 +876,11 @@ blockquote-temp p {
 
 
 table {
+    margin-top: 60px;
     font-family: "Raleway", sans-serif;
     width: 100%;
     /*    text-align: left;*/
+/*    border-top: 4px solid #fff;*/
 
 }
 
