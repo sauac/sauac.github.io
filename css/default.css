@@ -657,6 +657,23 @@ a .navunit:hover {
 }
 
 
+.section.hero.blog.summer {
+    background-image: url('/images/summer-trees-bench.jpg');
+}
+
+.section.hero.blog.autumn {
+    background-position: center;
+    background-size: cover;
+    background-image: url('/images/bench560435.jpg');
+}
+
+.section.hero.blog.winter {
+    background-position: center;
+    background-image: url('/images/winter-bench.jpg');
+}
+
+
+
 .section .hero-sub-heading {
     color: white;
 }
