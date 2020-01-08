@@ -78,21 +78,16 @@ body p {
 
 .navunit.season {}
 
-.navunit.season p {}
-
-.navunit.season:hover {
-    color: #df9d42;
-    /*    cursor: pointer;*/
+.navunit {
+}
+.navunit.season{
+}
+.navunit.season p {
 }
 
-button {
-    border: none;
+.navunit.season p:hover {
+    color: #df9d42;
     cursor: pointer;
-}
-
-button:hover {
-
-    color: #df9d42;
 }
 
 .navunit a {
