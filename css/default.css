@@ -82,6 +82,13 @@ body p {
 }
 */
 
+.dropbtn {
+    max-height: inherit;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
 .test {
     float: left;
     max-height: inherit;
