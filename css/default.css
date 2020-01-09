@@ -34,17 +34,21 @@ body p {
 
 .navbar .section-wrapper {
     padding-bottom: 0;
+    max-height: 100%;
 }
 
 .navcontainer {
     position: relative;
     width: 100%;
+    max-height: 60px;
+
 }
 
 .navunit {
     /* display: inline-block; */
     padding: 0 20px;
     float: right;
+    max-height: 60px;
 }
 
 .dropdown-content {
@@ -78,15 +82,26 @@ body p {
 }
 */
 
+.test {
+    float: left;
+    max-height: inherit;
+}
+
 .test:hover .dropdown-content {
     display: block;
+}
+
+.test:hover p {
+    color: #df9d42;
+}
+
+.test:hover {
+    cursor: pointer;
 }
 
 .navunit.season {}
 
 .navunit {}
-
-.navunit.season {}
 
 .navunit.season p {}
 
