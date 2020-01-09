@@ -72,18 +72,23 @@ body p {
     color: white;
 }
 
+/*
 .navunit.season:hover .dropdown-content {
+    display: block;
+}
+*/
+
+.test:hover .dropdown-content {
     display: block;
 }
 
 .navunit.season {}
 
-.navunit {
-}
-.navunit.season{
-}
-.navunit.season p {
-}
+.navunit {}
+
+.navunit.season {}
+
+.navunit.season p {}
 
 .navunit.season p:hover {
     color: #df9d42;
