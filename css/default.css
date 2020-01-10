@@ -83,6 +83,7 @@ body p {
 */
 
 .dropbtn {
+    padding: inherit;
     max-height: inherit;
     border: none;
     background-color: inherit;
@@ -90,8 +91,8 @@ body p {
 }
 
 .test {
-    float: left;
-    max-height: inherit;
+    /*    float: right;*/
+    max-height: 60px;
 }
 
 .test:hover .dropdown-content {
@@ -108,7 +109,7 @@ body p {
 
 .navunit.season {}
 
-.navunit {}
+
 
 .navunit.season p {}
 
