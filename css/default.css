@@ -1023,7 +1023,10 @@ table .table-top-row th:nth-of-type(1) {
     font-size: 20px;
     text-align: center
 */
+    color: #2a2a2a;
 }
+
+
 
 table td {
     background-color: #dde8eb;
