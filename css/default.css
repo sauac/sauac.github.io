@@ -113,11 +113,12 @@ body p {
     /*    line-height: inherit;*/
     padding: inherit;
     height: inherit;
+    width: auto;
     margin-right: inherit;
+    margin-left: 5px;
     color: inherit;
     background-color: inherit;
     border: none;
-
 }
 
 
