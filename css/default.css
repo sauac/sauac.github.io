@@ -1072,21 +1072,33 @@ table .table-top-row h2 {
 table .table-top-row .spring {
     font-style: normal;
     color: #a79f45;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     letter-spacing: 2px;
 }
 
 table .table-top-row .summer {
-    color: #51b31f;
+    font-style: normal;
+    color: #4e902c;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
 }
 
 table .table-top-row .autumn {
+    font-style: normal;
     color: #a98663;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
 }
 
 table .table-top-row .winter {
-    color: #758cde;
+    font-style: normal;
+    color: #3f77e0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
 }
 
 
