@@ -922,6 +922,10 @@ blockquote-temp p {
     /*    flex-direction: column;*/
 }
 
+.section-wrapper.about {
+    flex-direction: column;
+}
+
 .blog-content.left {
     flex: 2;
     margin-right: 30px;
