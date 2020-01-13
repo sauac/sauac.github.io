@@ -153,13 +153,12 @@ body p {
 }
 
 /* Responsive wrapper */
-/*
 @media screen and (max-width: 768px) {
     .navunit {
+        /*        visibility: collapse;*/
         display: none;
     }
 }
-*/
 
 .hamburger {
     display: block;
@@ -193,14 +192,12 @@ body p {
 }
 
 /* Responsive wrapper */
-/*
 @media screen and (max-width: 768px) {
     .hamburger input {
         display: block;
         visibility: visible;
     }
 }
-*/
 
 .hamburger span {
     display: block;
@@ -223,14 +220,12 @@ body p {
 }
 
 /* Responsive wrapper */
-/*
 @media screen and (max-width: 768px) {
     .hamburger span {
         display: block;
         visibility: visible;
     }
 }
-*/
 
 .hamburger span:first-child {
     transform-origin: 0% 0%;
@@ -309,14 +304,12 @@ body p {
 }
 
 /* Responsive wrapper */
-/*
 @media screen and (max-width: 768px) {
     .hamburger .responsive-menu2 {
         display: block;
         visibility: visible;
     }
 }
-*/
 
 .responsive-menu2 #menu-section {
     position: relative !important;
