@@ -107,6 +107,21 @@ body p {
     cursor: pointer;
 }
 
+
+.test .fas.fa-caret-down {
+    font-size: inherit;
+    /*    line-height: inherit;*/
+    padding: inherit;
+    height: inherit;
+    margin-right: inherit;
+    color: inherit;
+    background-color: inherit;
+    border: none;
+
+}
+
+
+
 .navunit.season {}
 
 
