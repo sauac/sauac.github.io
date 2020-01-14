@@ -1034,14 +1034,14 @@ table th {
 */
 
 table th {
-    background-color: #d4d7d8;
+    background-color: #e7e8e8;
     color: #2a2a2a;
 }
 
 table .table-top-row th {
     border-bottom: 2px solid #ffffff;
     border-top: 2px solid #ffffff;
-    background-color: #d4d7d8;
+    background-color: #e7ebec;
     color: #2a2a2a;
 }
 
@@ -1052,7 +1052,8 @@ table .table-top-row th:nth-of-type(1) {
     text-align: center
 */
     /*    color: #a79f45;*/
-    background-color: #ffffff;
+    /*    background-color: #ffffff;*/
+    background-color: #8f9c9c;
 }
 
 table .table-top-row th:nth-of-type(2) {
@@ -1071,7 +1072,8 @@ table .table-top-row h2 {
 
 table .table-top-row .spring {
     font-style: normal;
-    color: #a79f45;
+    /*    color: #a79f45;*/
+    color: #ffffff;
     margin-top: 5px;
     margin-bottom: 5px;
     letter-spacing: 2px;
@@ -1079,7 +1081,8 @@ table .table-top-row .spring {
 
 table .table-top-row .summer {
     font-style: normal;
-    color: #4e902c;
+    /*    color: #4e902c;*/
+    color: #ffffff;
     margin-top: 5px;
     margin-bottom: 5px;
     letter-spacing: 2px;
@@ -1087,7 +1090,8 @@ table .table-top-row .summer {
 
 table .table-top-row .autumn {
     font-style: normal;
-    color: #a98663;
+    /*    color: #a98663;*/
+    color: #ffffff;
     margin-top: 5px;
     margin-bottom: 5px;
     letter-spacing: 2px;
@@ -1095,7 +1099,8 @@ table .table-top-row .autumn {
 
 table .table-top-row .winter {
     font-style: normal;
-    color: #3f77e0;
+    /*    color: #3f77e0;*/
+    color: #ffffff;
     margin-top: 5px;
     margin-bottom: 5px;
     letter-spacing: 2px;
@@ -1164,7 +1169,7 @@ table .table-block-top {
 .table-title {
     margin: 7px 0;
     color: #ffffff;
-    font-size: 32px;
+    font-size: 30px;
     font-style: normal;
 }
 
