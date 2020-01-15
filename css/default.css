@@ -90,25 +90,25 @@ body p {
     cursor: pointer;
 }
 
-.test {
+.dropdown {
     /*    float: right;*/
     max-height: 60px;
 }
 
-.test:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
-.test:hover p {
+.dropdown:hover p {
     color: #df9d42;
 }
 
-.test:hover {
+.dropdown:hover {
     cursor: pointer;
 }
 
 
-.test .fas.fa-caret-down {
+.dropdown .fas.fa-caret-down {
     font-size: inherit;
     /*    line-height: inherit;*/
     padding: inherit;
