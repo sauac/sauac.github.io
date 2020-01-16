@@ -121,6 +121,78 @@ body p {
     border: none;
 }
 
+.responsive-menu2 {}
+
+.responsive-menu2 #menu-section {}
+
+.responsive-menu2 #menu-list {}
+
+.responsive-menu2 #menu-list a {}
+
+.responsive-menu2 li {}
+
+
+
+
+.responsive-menu2 .dropdown {
+    display: inline-block;
+    width: 300px;
+    /*    height: 600px;*/
+    /*    position: relative;*/
+    /*    padding: 10px 50px 25px;*/
+    /*    padding-top: 10px;*/
+    /*    padding-left: 50px;*/
+
+}
+
+.responsive-menu2 .dropdown:hover {
+    background-color: grey;
+}
+
+
+
+.responsive-menu2 .dropdown .dropdown-content {
+    top: 0px;
+    position: relative;
+    /*    display: block;*/
+    left: 0;
+    padding-bottom: 30px;
+
+}
+
+
+.responsive-menu2 .dropbtn {
+    font-size: 20px;
+    /*
+    padding-top: 0px;
+    padding-left: 0px;
+*/
+    padding: 10px 50px 25px;
+    width: inherit;
+}
+
+.responsive-menu2 .dropbtn:hover {}
+
+
+
+
+.responsive-menu2 p {
+    /*    padding-left: 50px;*/
+    margin-top: inherit;
+    margin-bottom: inherit;
+    text-align: left;
+}
+
+.responsive-menu2 .fas {}
+
+.responsive-menu2 .fas.responsive-menu2 .dropdown-content {}
+
+.responsive-menu2 .dropdown-content a {
+    padding-left: 50px;
+}
+
+
+
 
 
 .navunit.season {}
@@ -314,9 +386,11 @@ body p {
 .responsive-menu2 #menu-section {
     position: relative !important;
     margin: 0px 0 0px 0px !important;
-    padding: 50px;
+    padding: 70px 0px 30px;
+    /*
     padding-top: 70px;
     padding-bottom: 30px;
+*/
     border-top: 1px solid rgba(190, 190, 190, 0.25);
 }
 
@@ -327,17 +401,20 @@ body p {
 .responsive-menu2 #menu-list {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .responsive-menu2 li {
     color: black !important;
-    padding: 10px 0 25px 0 !important;
+    padding: 10px 50px 25px !important;
     font-size: 20px !important;
     list-style-type: none;
+    width: 100%;
 }
 
 .responsive-menu2 li:hover {
     color: #df9d42 !important;
+    background-color: grey;
 }
 
 .responsive-menu2 .git-hub-button:hover {
