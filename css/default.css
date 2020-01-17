@@ -137,6 +137,7 @@ body p {
 .responsive-menu2 .dropdown {
     display: inline-block;
     width: 300px;
+    /*    max-height: 58.33px;*/
     /*    height: 600px;*/
     /*    position: relative;*/
     /*    padding: 10px 50px 25px;*/
