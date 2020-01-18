@@ -721,14 +721,43 @@ a .navunit:hover {
     }
 }
 
+
+/*
 .section.homepage {
-    /*    padding-top: 150px;*/
     padding-top: 160px;
     padding-bottom: 100px;
     background: linear-gradient(90deg,
             rgba(187, 184, 129, 1) 0%,
             rgba(189, 175, 107, 1) 50%,
             rgba(191, 143, 84, 1) 100%);
+}
+*/
+
+
+
+.section.homepage {
+    padding-top: 210px;
+    padding-bottom: 170px;
+    background: linear-gradient(90deg,
+            rgba(187, 184, 129, 1) 0%,
+            rgba(189, 175, 107, 1) 50%,
+            rgba(191, 143, 84, 1) 100%);
+}
+
+/* Responsive  */
+@media screen and (max-width: 768px) {
+    .section.homepage {
+        padding-top: 240px;
+        padding-bottom: 180px;
+    }
+}
+
+/* Responsive  */
+@media screen and (max-width: 600px) {
+    .section.homepage {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
 }
 
 
@@ -832,8 +861,8 @@ a .navunit:hover {
 
 
 .section.hero.blog {
-    padding-top: 160px;
-    padding-bottom: 100px;
+    padding-top: 210px;
+    padding-bottom: 170px;
     background-position: center;
     background-size: cover;
     background-image: url('/images/spring-bench.jpg');
@@ -858,28 +887,28 @@ a .navunit:hover {
     background-image: url('/images/winter-bench.jpg');
 }
 
+/* Responsive  */
+@media screen and (max-width: 768px) {
+    .section.hero.blog {
+        padding-top: 240px;
+        padding-bottom: 180px;
+    }
+}
+
+/* Responsive  */
+@media screen and (max-width: 600px) {
+    .section.hero.blog {
+        padding-top: 160px;
+        padding-bottom: 100px;
+    }
+}
+
+
+
 
 
 .section .hero-sub-heading {
     color: white;
-}
-
-
-.section.hero {
-    /*
-    padding-bottom: 60px;
-    background-image: url('bench560435.jpg'), url('summer-trees-bench.jpg');
-    background-size: contain;
-    background-position: left, right;
-    background-repeat: no-repeat;
-    background-color: #8e8e8e;
-*/
-    /*
-    background: linear-gradient(90deg,
-            rgba(187, 184, 129, 1) 0%,
-            rgba(189, 175, 107, 1) 50%,
-            rgba(191, 143, 84, 1) 100%);
-*/
 }
 
 
