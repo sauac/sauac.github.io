@@ -159,7 +159,7 @@ body p {
     /*    padding: 10px 50px 25px;*/
     /*    padding-top: 10px;*/
     /*    padding-left: 50px;*/
-
+    height: inherit;
 }
 
 .responsive-menu2 .dropdown:hover {
@@ -193,6 +193,7 @@ body p {
 */
     padding: 10px 50px 25px;
     width: inherit;
+    height: unset;
 }
 
 .responsive-menu2 .dropbtn:hover {}
@@ -205,6 +206,11 @@ body p {
     margin-top: inherit;
     margin-bottom: inherit;
     text-align: left;
+    /*    line-height: normal;*/
+}
+
+.responsive-menu2 .dropdown p {
+    line-height: normal;
 }
 
 .responsive-menu2 .fas {}
