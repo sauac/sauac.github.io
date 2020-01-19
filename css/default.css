@@ -1108,7 +1108,8 @@ blockquote-temp p {
 .section {
     padding-top: 30px;
     padding-bottom: 50px;
-    background-color: #f7f7fa;
+    /*    background-color: #f7f7fa;*/
+    background-color: #f7f7f7;
 }
 
 .section-wrapper {
@@ -1193,8 +1194,8 @@ blockquote-temp p {}
     0 3px 16px rgba(39, 44, 49, 0.07);
 */
 
-    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 10px rgba(39, 44, 49, 0.12);
-    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 0 3px 10px rgba(39, 44, 49, 0.12);
+    -webkit-box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 3px 3px 10px rgba(39, 44, 49, 0.18);
+    box-shadow: 0 0 1px rgba(39, 44, 49, 0.1), 3px 3px 10px rgba(39, 44, 49, 0.18);
 }
 
 /* Responsive columns */
