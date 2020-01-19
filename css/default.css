@@ -34,13 +34,16 @@ body p {
 
 .navbar .section-wrapper {
     padding-bottom: 0;
+    height: 70px;
     max-height: 100%;
+
 }
 
 .navcontainer {
     position: relative;
     width: 100%;
-    max-height: 60px;
+    height: 70px;
+    max-height: 70px;
 
 }
 
@@ -48,11 +51,12 @@ body p {
     /* display: inline-block; */
     padding: 0 20px;
     float: right;
-    max-height: 60px;
+    height: 70px;
+    max-height: 70px;
 }
 
 .dropdown-content {
-    top: 60px;
+    top: 70px;
     font-family: "Raleway", sans-serif;
     display: none;
     position: absolute;
@@ -86,6 +90,7 @@ body p {
 
 .dropbtn {
     padding: inherit;
+    /*    height: inherit;*/
     max-height: inherit;
     border: none;
     background-color: inherit;
@@ -94,7 +99,8 @@ body p {
 
 .dropdown {
     /*    float: right;*/
-    max-height: 60px;
+    height: 70px;
+    max-height: 70px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -217,7 +223,9 @@ body p {
 
 
 
-.navunit.season {}
+.navunit.season {
+    /*    height: 70px;*/
+}
 
 
 
