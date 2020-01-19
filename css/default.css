@@ -89,12 +89,20 @@ body p {
 */
 
 .dropbtn {
-    padding: inherit;
-    /*    height: inherit;*/
-    max-height: inherit;
+    padding: 0;
+    /*
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+*/
+    /*    padding: inherit;*/
+    height: 70px;
+    /*    max-height: inherit;*/
     border: none;
     background-color: inherit;
     cursor: pointer;
+    flex-flow: column-reverse;
 }
 
 .dropdown {
@@ -843,7 +851,8 @@ a .navunit:hover {
 
 
 .section.about {
-    padding-top: 100px;
+    padding-top: 120px;
+    padding-bottom: 60px;
     background: linear-gradient(90deg,
             rgba(187, 184, 129, 1) 0%,
             rgba(189, 175, 107, 1) 50%,
@@ -851,7 +860,8 @@ a .navunit:hover {
 }
 
 .section.contact {
-    padding-top: 100px;
+    padding-top: 120px;
+    padding-bottom: 60px;
     background: linear-gradient(90deg,
             rgba(187, 184, 129, 1) 0%,
             rgba(189, 175, 107, 1) 50%,
@@ -986,10 +996,7 @@ a .navunit:hover {
 
 
 
-.section .hero-sub-heading {
-    color: white;
-    z-index: 10;
-}
+
 
 
 .section-wrapper.hero {
@@ -1002,7 +1009,7 @@ a .navunit:hover {
 }
 
 .section .hero .main-title {
-    margin-top: 10px;
+    /*    margin-top: 10px;*/
     margin-bottom: 5px;
     font-size: 42px;
     color: #fff;
@@ -1018,8 +1025,11 @@ a .navunit:hover {
 
 .section .hero-sub-heading {
     margin-top: 5px;
-    /*    color: #49686F;*/
+    color: white;
+    z-index: 10;
 }
+
+
 
 /*
 .hero {
